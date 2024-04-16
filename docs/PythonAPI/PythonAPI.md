@@ -1,2 +1,2 @@
-[Battle](docs/PythonAPI/Battle.md)
+[Battle](/docs/PythonAPI/Battle.md)
 
