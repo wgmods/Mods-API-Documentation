@@ -1,1 +1,1 @@
-[PythonAPI - Battle](docs/Python API/Battle.md)
+[PythonAPI - Battle](docs/PythonAPI/Battle.md)
