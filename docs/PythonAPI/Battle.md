@@ -3,7 +3,7 @@ Working with "battle" methods is only possible after entering a battle (for a si
 ## Available methods:
 
 - [getPlayersInfo()](#getplayersinfo)
-- [getPlayerInfo(playerID)](#getplayerpnfo)
+- [getPlayerInfo(playerID)](#getplayerpinfo)
 - [getSelfPlayerInfo()](#getselfplayerinfo)
 - [getPlayerShipInfo(playerID)](#getplayershipinfo)
 
