@@ -3,6 +3,9 @@ Working with "battle" methods is only possible after entering a battle (for a si
 ## Available methods:
 
 - [getPlayersInfo()](#getplayersinfo())
+- [getPlayerInfo(playerID)](#getPlayerInfo(playerID))
+- [getSelfPlayerInfo()](#getSelfPlayerInfo())
+- [getPlayerShipInfo(playerID)](#getPlayerShipInfo(playerID))
 
 ### getPlayersInfo()
 This function returns a dict, where keys are "playerID", and values are dict "PlayerInfo" with various information about the player.
@@ -12,3 +15,49 @@ To view the result, you can pass it to the "World_of_Warships\profile\python.log
 
 ![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/486b4d27-f7f9-4f34-985f-52b7930ad7cf)
 
+### getPlayerInfo(playerID)
+This function returns an object with player information.
+
+The input parameter is playerId (the player’s ID). The returned value is PlayerInfo.
+
+### getSelfPlayerInfo()
+This function returns an object with information about the player. The returned value is PlayerInfo.
+
+battle.getPlayerInfoByName(name)
+This function returns an object with information about the player.
+
+The input parameter is name (the player’s nickname). The returned value is PlayerInfo.
+
+### getPlayerShipInfo(playerID)
+This function returns an object with information about the player’s ship.
+
+The input parameter is playerId (the player’s ID). The returned value is ShipInfo.
+
+### battle.getPlayerByVehicleId(shipID)
+This function returns an object with information about the player.
+
+The input parameter is shipId (the ship’s ID). The returned value is PlayerInfo.
+
+### battle.getAmmoParams(ammoID)
+This function returns an object with information about the shell.
+
+The input parameter is ammoId (the shell ID, this value can be obtained in the event handler function "events.onReceiveShellInfo(func)" (see the description in the "events" methods).
+
+### battle.isVehicleBurning(shipID)
+This function returns True if the ship is on fire, or False if it isn’t; for example, you can use it in the event handler function "events.onReceiveShellInfo(func)" (see the description in the "events" methods).
+
+The input parameter is ID (the ship ID).
+
+### battle.isVehicleFlooding(shipID)
+This function returns True if a shell hitting the ship caused flooding, or False if it’s not the case; it is recommended to use it in the same way as "isVehicleBurning".
+
+The input parameter is ID (the ship ID).
+
+### battle.isBattleStarted()
+This function returns True if the battle has started.
+
+### battle.cameraAltVision()
+This function returns True if Alt key pressed in the battle.
+
+### battle.isObserverMode()
+This function returns True if player enters into the training room as Observer.
