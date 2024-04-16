@@ -21,12 +21,16 @@ To view the result, you can pass it to the "World_of_Warships\profile\python.log
 ![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/be7eeaca-9e6b-4d75-a878-f4500789a862)
 
 ![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/486b4d27-f7f9-4f34-985f-52b7930ad7cf)
+
 ---
+
 ### getPlayerInfo(playerID)
 This function returns an object with player information.
 
 The input parameter is playerId (the player’s ID). The returned value is PlayerInfo.
+
 ---
+
 ### getSelfPlayerInfo()
 This function returns an object with information about the player. The returned value is PlayerInfo.
 
@@ -34,7 +38,9 @@ battle.getPlayerInfoByName(name)
 This function returns an object with information about the player.
 
 The input parameter is name (the player’s nickname). The returned value is PlayerInfo.
+
 ---
+
 ### getPlayerShipInfo(playerID)
 This function returns an object with information about the player’s ship.
 
