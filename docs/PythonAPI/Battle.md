@@ -3,9 +3,9 @@ Working with "battle" methods is only possible after entering a battle (for a si
 ## Available methods:
 
 - [getPlayersInfo()](#getplayersinfo())
-- [getPlayerInfo(playerID)](#getPlayerInfo(playerID))
-- [getSelfPlayerInfo()](#getSelfPlayerInfo())
-- [getPlayerShipInfo(playerID)](#getPlayerShipInfo(playerID))
+- [getPlayerInfo(playerID)](#getplayerpnfo(playerid))
+- [getSelfPlayerInfo()](#getselfplayerinfo())
+- [getPlayerShipInfo(playerID)](#getplayershipinfo(playerid))
 
 ### getPlayersInfo()
 This function returns a dict, where keys are "playerID", and values are dict "PlayerInfo" with various information about the player.
