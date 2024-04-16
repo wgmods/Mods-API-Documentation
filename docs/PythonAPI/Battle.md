@@ -66,7 +66,7 @@ This function returns True if the battle has started.
 ### cameraAltVision()
 This function returns True if Alt key pressed in the battle.
 
-| ### isObserverMode()|
+|isObserverMode()|
 | --- |
 |This function returns True if player enters into the training room as Observer.|
 
