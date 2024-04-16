@@ -8,10 +8,11 @@ Working with "battle" methods is only possible after entering a battle (for a si
 - [getPlayerShipInfo(playerID)](#getPlayerShipInfoplayerID)
 - [getPlayerByVehicleId(shipID)](#getPlayerByVehicleIdshipID)
 - [getAmmoParams(ammoID)](#getAmmoParamsammoID)
-
-- [isObserverMode()](#isobservermode)
-
-
+- [isVehicleBurning(shipID)](#isVehicleBurningshipID)
+- [isVehicleFlooding(shipID)](#isVehicleFloodingshipID)
+- [isBattleStarted()](#isBattleStarted)
+- [cameraAltVision()](#cameraAltVision)
+- [isObserverMode()](#isObserverMode)
 
 ### getPlayersInfo()
 This function returns a dict, where keys are "playerID", and values are dict "PlayerInfo" with various information about the player.
