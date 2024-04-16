@@ -6,7 +6,7 @@ Working with "battle" methods is only possible after entering a battle (for a si
 - [getPlayerInfo(playerID)](#getplayerinfoplayerID)
 - [getSelfPlayerInfo()](#getselfplayerinfo)
 - [getPlayerShipInfo(playerID)](#getplayershipinfoplayerID)
-- [getPlayerByVehicleId(shipID)](#getplayerbyvehicleidshipID)
+- [getPlayerByVehicleId(shipID)](#getPlayerByVehicleIdshipID)
 - [isObserverMode()](#isobservermode)
 
 
