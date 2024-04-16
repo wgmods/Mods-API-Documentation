@@ -2,11 +2,13 @@ Working with "battle" methods is only possible after entering a battle (for a si
 
 ## Available methods:
 
-- [getPlayersInfo()](#getplayersinfo)
-- [getPlayerInfo(playerID)](#getplayerinfoplayerID)
-- [getSelfPlayerInfo()](#getselfplayerinfo)
-- [getPlayerShipInfo(playerID)](#getplayershipinfoplayerID)
+- [getPlayersInfo()](#getPlayersInfo)
+- [getPlayerInfo(playerID)](#getPlayerInfoplayerID)
+- [getSelfPlayerInfo()](#getSelfPlayerInfo)
+- [getPlayerShipInfo(playerID)](#getPlayerShipInfoplayerID)
 - [getPlayerByVehicleId(shipID)](#getPlayerByVehicleIdshipID)
+- [getAmmoParams(ammoID)](#getAmmoParamsammoID)
+
 - [isObserverMode()](#isobservermode)
 
 
