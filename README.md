@@ -2,3 +2,5 @@
 Mods API v1 Documentation
 
 [APIs](docs/APIs.md)
+
+[PythonAPI](docs/PythonAPI/PythonAPI.md)
