@@ -7,6 +7,10 @@ Working with "battle" methods is only possible after entering a battle (for a si
 - [getSelfPlayerInfo()](#getselfplayerinfo())
 - [getPlayerShipInfo(playerID)](#getplayershipinfo(playerid))
 
+- [isObserverMode()](#isobservermode)
+
+
+
 ### getPlayersInfo()
 This function returns a dict, where keys are "playerID", and values are dict "PlayerInfo" with various information about the player.
 To view the result, you can pass it to the "World_of_Warships\profile\python.log" file via "print", or write it in a separate file "open('filename', 'w')".
@@ -59,7 +63,7 @@ This function returns True if the battle has started.
 ### battle.cameraAltVision()
 This function returns True if Alt key pressed in the battle.
 
-### battle.isObserverMode()
+### isObserverMode()
 This function returns True if player enters into the training room as Observer.
 
 
