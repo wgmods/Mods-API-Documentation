@@ -1,4 +1,4 @@
 # Mods-API-Documentation
 Mods API v1 Documentation
 
-[](docs/APIs.md)
+[APIs](docs/APIs.md)
