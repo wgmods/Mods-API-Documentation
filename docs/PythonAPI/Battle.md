@@ -6,5 +6,5 @@ Working with "battle" methods is only possible after entering a battle (for a si
 
 ### getPlayersInfo()
 This function returns a dict, where keys are "playerID", and values are dict "PlayerInfo" with various information about the player.
-
 To view the result, you can pass it to the "World_of_Warships\profile\python.log" file via "print", or write it in a separate file "open('filename', 'w')".
+![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/be7eeaca-9e6b-4d75-a878-f4500789a862)
