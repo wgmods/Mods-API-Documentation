@@ -18,6 +18,7 @@ An example of subscription to an event:
 - [onGotRibbon(func)](#onGotRibbonfunc)
 - [onAchievementEarned(func)](#onAchievementEarnedfunc)
 - [onBattleStatsReceived(func)](#onBattleStatsReceivedfunc)
+- [onBattleShownfunc](#onBattleShownfunc)
 
 ---
 
@@ -153,3 +154,11 @@ This event is triggered when the player gets post battle information.
 
 ---
 
+### onBattleShown(func)
+
+This event is triggered after the timer countdown finishes and when a battle arena shown.
+
+#### Input parameters
+- func - it’s a handler function for the event
+
+---
