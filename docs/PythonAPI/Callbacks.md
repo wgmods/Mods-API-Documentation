@@ -1,23 +1,24 @@
-"Callbacks" methods are designed for calling functions multiple times.
+Module #### callbacks contains methods that are designed for calling functions multiple times.
 
 ## Available methods:
 
 - [perTick(func)](#perTickfunc)
 - [callback(delaytime, func, *args, **kwargs)](#callbackdelaytime-func-args-kwargs)
+- [cancel(handle)](#cancelhandle)
 
 ### perTick(func)
 This function calls a user function passed as a parameter every tick (several times per second).
 
 #### Input parameters
-* func - user function that will be called by this method every tick.
+- func - user function that will be called by this method every tick
 
 #### Returns
-* handle - unique method identifier used to stop a call for a function by a tick.
+- handle - unique method identifier used to stop a call for a function by a tick
 
 ![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/f827ad4d-5aa2-4af1-ac7e-78d4f363644f)
 
 #### Warning
-Be careful when using this method, it can bring to poor performance of the game client.
+Be careful when using this method, it can bring to poor performance of the game client
 
 ---
 
@@ -26,14 +27,22 @@ This function also takes the user function "func" as a parameter that will be ca
 
 #### Input parameters
 
-* delaytime – a delay in seconds indicating when the func function will be called
-* func – a function to be called
-* *args – positional arguments that will be passed to the func function
-* **kwargs – named arguments that will be passed to the func function
+- delaytime – a delay in seconds indicating when the func function will be called
+- func – a function to be called
+- *args – positional arguments that will be passed to the func function
+- **kwargs – named arguments that will be passed to the func function
 
 #### Returns
-* handle - unique method identifier used to stop a call for a function by a tick.
+- handle - unique method identifier used to stop a call for a function by a tick
 
 ![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/61b0e222-2172-4621-b345-133dab2e38dd)
+
+---
+
+### cancel(handle)
+This function finishes operation of the method that called the function every tick or at a set interval.
+
+#### Input parameters
+- handle - unique identifier of the handle method called by the functions perTick and callback
 
 ---
