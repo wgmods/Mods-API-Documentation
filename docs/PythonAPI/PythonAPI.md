@@ -1,3 +1,3 @@
-[Battle](docs/PythonAPI/battle.md)
+[battle](docs/PythonAPI/battle.md)
 
-[Callbacks](docs/PythonAPI/callbacks.md)
+[callbacks](docs/PythonAPI/callbacks.md)
