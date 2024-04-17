@@ -5,6 +5,7 @@ Working with "battle" methods is only possible after entering a battle (for a si
 - [getPlayersInfo()](#getPlayersInfo)
 - [getPlayerInfo(playerID)](#getPlayerInfoplayerID)
 - [getSelfPlayerInfo()](#getSelfPlayerInfo)
+- [getPlayerInfoByName(name)](#getPlayerInfoByNamename)
 - [getPlayerShipInfo(playerID)](#getPlayerShipInfoplayerID)
 - [getPlayerByVehicleId(shipID)](#getPlayerByVehicleIdshipID)
 - [getAmmoParams(ammoID)](#getAmmoParamsammoID)
@@ -27,17 +28,30 @@ To view the result, you can pass it to the "World_of_Warships\profile\python.log
 ### getPlayerInfo(playerID)
 This function returns an object with player information.
 
-The input parameter is playerId (the player’s ID). The returned value is PlayerInfo.
+#### Input parameters
+- playerId - the player’s ID
+
+#### Returns
+- PlayerInfo object
 
 ---
 
 ### getSelfPlayerInfo()
 This function returns an object with information about the player. The returned value is PlayerInfo.
 
-battle.getPlayerInfoByName(name)
+#### Returns
+- PlayerInfo object
+
+---
+
+### getPlayerInfoByName(name)
 This function returns an object with information about the player.
 
-The input parameter is name (the player’s nickname). The returned value is PlayerInfo.
+#### Input parameters
+- name - the player’s nickname
+
+#### Returns
+- PlayerInfo object
 
 ---
 
