@@ -11,6 +11,8 @@ An example of subscription to an event:
 - [onFlashReady(func)](#onFlashReadyfunc)
 - [onSFMEvent(func)](#onSFMEventfunc)
 - [onReceiveShellInfo(func)](#onReceiveShellInfofunc)
+- [onBattleStart(func)](#onBattleStartfunc)
+- [onBattleQuit(func)](#onBattleQuitfunc)
 
 ---
 
@@ -65,5 +67,20 @@ This event is triggered when damage is dealt/received to the enemy/from the enem
 
 ---
 
+### onBattleStart(func)
 
+This event is triggered when a battle starts, after the timer countdown finishes before the battle.
+
+#### Input parameters
+- func - it’s a handler function for the event
+
+---
+
+### onBattleQuit(func)
+This event is triggered when exiting a battle and/or exiting the game.
+
+#### Input parameters
+- func - it’s a handler function for the event, when handling an event, the function gets one argument - true
+
+---
 
