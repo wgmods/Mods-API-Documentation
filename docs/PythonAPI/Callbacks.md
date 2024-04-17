@@ -3,7 +3,7 @@
 ## Available methods:
 
 - [perTick(func)](#perTickfunc)
-- [callback(delaytime, func, *args, **kwargs)](#callbackdelaytime,func)
+- [callback(delaytime, func, *args, **kwargs)](#callbackdelaytime,-func)
 
 ### perTick(func)
 This function calls a user function passed as a parameter every tick (several times per second).
