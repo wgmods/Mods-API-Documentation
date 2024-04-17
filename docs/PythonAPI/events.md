@@ -18,7 +18,7 @@ An example of subscription to an event:
 - [onGotRibbon(func)](#onGotRibbonfunc)
 - [onAchievementEarned(func)](#onAchievementEarnedfunc)
 - [onBattleStatsReceived(func)](#onBattleStatsReceivedfunc)
-- [onBattleShownfunc](#onBattleShownfunc)
+- [onBattleShown(func)](#onBattleShownfunc)
 
 ---
 
