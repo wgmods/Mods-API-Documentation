@@ -6,6 +6,8 @@ Module **callbacks** contains methods that are designed for calling functions mu
 - [callback(delaytime, func, *args, **kwargs)](#callbackdelaytime-func-args-kwargs)
 - [cancel(handle)](#cancelhandle)
 
+---
+
 ### perTick(func)
 This function calls a user function passed as a parameter every tick (several times per second).
 
