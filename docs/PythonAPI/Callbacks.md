@@ -3,7 +3,7 @@
 ## Available methods:
 
 - [perTick(func)](#perTickfunc)
-- [callback(delaytime, func, *args, **kwargs)](#callback)
+- [callback(delaytime, func, *args, **kwargs)](#callbackdelaytime,-func,-*args,-**kwargs)
 
 ### perTick(func)
 This function calls a user function passed as a parameter every tick (several times per second).
@@ -33,3 +33,7 @@ This function also takes the user function "func" as a parameter that will be ca
 
 #### Returns
 * handle - unique method identifier used to stop a call for a function by a tick.
+
+![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/61b0e222-2172-4621-b345-133dab2e38dd)
+
+---
