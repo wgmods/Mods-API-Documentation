@@ -15,6 +15,9 @@ An example of subscription to an event:
 - [onBattleQuit(func)](#onBattleQuitfunc)
 - [onKeyEvent(func)](#onKeyEventfunc)
 - [onMouseEvent(func)](#onMouseEventfunc)
+- [onGotRibbon(func)](#onGotRibbonfunc)
+- [onAchievementEarned(func)](#onAchievementEarnedfunc)
+- [onBattleStatsReceived(func)](#onBattleStatsReceivedfunc)
 
 ---
 
@@ -120,3 +123,33 @@ This method handles mouse cursor movements.
 - event.dz - the value is always 0
 
 ---
+
+### onGotRibbon(func)
+
+This event is triggered when the player gets a ribbon.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function are *args, **kwargs
+
+The ***args** argument takes a ribbon constant value.
+
+---
+
+### onAchievementEarned(func)
+
+This event is triggered when the player gets an achievement.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function are *args, **kwargs
+
+---
+
+### onBattleStatsReceived(func)
+
+This event is triggered when the player gets post battle information.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function are arg
+
+---
+
