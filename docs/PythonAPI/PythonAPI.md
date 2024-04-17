@@ -1,3 +1,3 @@
-[battle](docs/PythonAPI/battle.md)
+[battle](./battle.md)
 
 
