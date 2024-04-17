@@ -2,7 +2,7 @@
 
 ## Available methods:
 
-- [perTick()](#perTickfunc)
+- [perTick(func)](#perTickfunc)
 
 ### perTick(func)
 This function calls a user function passed as a parameter every tick (several times per second).
