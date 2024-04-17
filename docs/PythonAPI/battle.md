@@ -15,6 +15,8 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [cameraAltVision()](#cameraAltVision)
 - [isObserverMode()](#isObserverMode)
 
+---
+
 ### getPlayersInfo()
 This function returns a dict, where keys are "playerID", and values are dict "PlayerInfo" with various information about the player.
 To view the result, you can pass it to the "World_of_Warships\profile\python.log" file via "print", or write it in a separate file "open('filename', 'w')".
