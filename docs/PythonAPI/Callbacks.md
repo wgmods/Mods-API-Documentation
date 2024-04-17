@@ -1,4 +1,4 @@
-Module #### callbacks contains methods that are designed for calling functions multiple times.
+Module **callbacks** contains methods that are designed for calling functions multiple times.
 
 ## Available methods:
 
