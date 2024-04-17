@@ -3,7 +3,7 @@
 ## Available methods:
 
 - [perTick(func)](#perTickfunc)
-- [callback(delaytime, func, *args, **kwargs)](#callbackdelaytimefuncargskwargs)
+- [callback(delaytime, func, *args, **kwargs)](#callbackdelaytime,func)
 
 ### perTick(func)
 This function calls a user function passed as a parameter every tick (several times per second).
@@ -21,7 +21,7 @@ Be careful when using this method, it can bring to poor performance of the game 
 
 ---
 
-### callback(delaytime, func, *args, **kwargs)
+### callback(delaytime, func)
 This function also takes the user function "func" as a parameter that will be called each time (repeatedly, again and again) with a set delay (an interval in seconds).
 
 #### Input parameters
