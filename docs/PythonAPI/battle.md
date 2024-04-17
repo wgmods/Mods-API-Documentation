@@ -58,50 +58,79 @@ This function returns an object with information about the player.
 ### getPlayerShipInfo(playerID)
 This function returns an object with information about the player’s ship.
 
-The input parameter is playerId (the player’s ID). The returned value is ShipInfo.
+#### Input parameters
+- playerId - the player’s ID
+
+#### Returns
+- ShipInfo object
 
 ---
 
 ### getPlayerByVehicleId(shipID)
 This function returns an object with information about the player.
 
-The input parameter is shipId (the ship’s ID). The returned value is PlayerInfo.
+#### Input parameters
+- shipId - the ship’s ID
+
+#### Returns
+- PlayerInfo object
 
 ---
 
 ### getAmmoParams(ammoID)
 This function returns an object with information about the shell.
 
-The input parameter is ammoId (the shell ID, this value can be obtained in the event handler function "events.onReceiveShellInfo(func)" (see the description in the "events" methods).
+#### Input parameters
+- ammoId - the shell ID, this value can be obtained in the event handler function "events.onReceiveShellInfo(func)" (see the description in the "events" methods).
+
+#### Returns
+- object
 
 ---
 
 ### isVehicleBurning(shipID)
 This function returns True if the ship is on fire, or False if it isn’t; for example, you can use it in the event handler function "events.onReceiveShellInfo(func)" (see the description in the "events" methods).
 
-The input parameter is ID (the ship ID).
+#### Input parameters
+- shipID - the ship's ID
+
+#### Returns
+- true or false
 
 ---
 
 ### isVehicleFlooding(shipID)
 This function returns True if a shell hitting the ship caused flooding, or False if it’s not the case; it is recommended to use it in the same way as "isVehicleBurning".
 
-The input parameter is ID (the ship ID).
+#### Input parameters
+- shipID - the ship's ID
+
+#### Returns
+- true or false
 
 ---
 
 ### isBattleStarted()
 This function returns True if the battle has started.
 
+#### Returns
+- true or false
+
 ---
 
 ### cameraAltVision()
 This function returns True if Alt key pressed in the battle.
 
+#### Returns
+- true or false
+
 ---
 
 ### isObserverMode()
 This function returns True if player enters into the training room as Observer.
+
+#### Returns
+- true or false
 
 
 
