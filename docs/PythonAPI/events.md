@@ -13,6 +13,8 @@ An example of subscription to an event:
 - [onReceiveShellInfo(func)](#onReceiveShellInfofunc)
 - [onBattleStart(func)](#onBattleStartfunc)
 - [onBattleQuit(func)](#onBattleQuitfunc)
+- [onKeyEvent(func)](#onKeyEventfunc)
+- [onMouseEvent(func)](#onMouseEventfunc)
 
 ---
 
@@ -84,3 +86,37 @@ This event is triggered when exiting a battle and/or exiting the game.
 
 ---
 
+### onKeyEvent(func)
+
+This method is triggered when keyboard or mouse buttons are pressed after entering the game (when the port is loaded).
+
+#### Input parameters
+- func - it’s a handler function for the event, the function gets the event object with different info about pressed keyboard/mouse buttons.
+  
+An example of  handler function:
+
+    def func(event):
+
+where **event** is the event object with the following properties:
+- event.key - a code of the pressed keyboard key (import Keys – grants access to keyboard constants: Keys.KEY_F1 is "F1" key, Keys.KEY_Q is Q key, etc.)
+- event.isKeyDown() - the function checks if any key is pressed and returns "True" or "False"
+- event.isKeyUp() - the function checks if the key was unpressed after being pressed and returns "True" or "False"
+- event.isShiftDown() - checks if "Shift" is on, returns "True" or "False"
+- event.isCtrlDown() - checks if "Ctrl" is on, returns "True" or "False"
+- event.isAltDown() - checks if  "Alt" is on, returns "True" or "False"
+
+---
+
+### onMouseEvent(func)
+
+This method handles mouse cursor movements.
+
+#### Input parameters
+- func - the function gets an event object **event** with different information for handling
+  
+**event** - an event object with the following properties:
+- event.dx - delta change of coordinates in X-direction
+- event.dy - delta change of coordinates in Y-direction
+- event.dz - the value is always 0
+
+---
