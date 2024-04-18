@@ -238,7 +238,7 @@ This function returns the [Player](./Classes/Player.md) object.
 
 ### getSelfPlayerShip()
 
-This function returns the elf player's Ship object.
+This function returns the elf player's [Ship](./Classes/Ship.md) object.
 
 #### Returns
 - object
