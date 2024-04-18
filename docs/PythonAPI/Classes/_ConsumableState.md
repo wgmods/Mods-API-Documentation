@@ -7,7 +7,7 @@ You can get object of this type from ship by this way:
 
 ### Athributes
 
-- icon - path to icon, string
+- icon - path to icon, str
 - num - number of consumables, int
 - currentState - int
 - endTime - float
