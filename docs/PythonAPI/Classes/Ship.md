@@ -25,6 +25,8 @@ You can get object of this type by following functions:
 ### Methods:
 
 - [getTorpedoesModulesState()](#getTorpedoesModulesState)
+- [getArtilleryModulesState()](#getArtilleryModulesState)
+- [getConsumablesState()](#getConsumablesState)
 
 ---
 
@@ -42,24 +44,33 @@ This function returns list of [_ModuleState](./_ModuleState.md) objects for ship
 
 ---
 
+### getTorpedoesModulesState()
 
-#### Input parameters
-- ownerId - torpedo owner Id
+This function returns list of [_ModuleState](./_ModuleState.md) objects for ship guns.
 
-getTorpedoesModulesState(self)
-Returns list of ModuleState objects for ship torpedoes.
+#### Returns
+- list of objects [_ModuleState](./_ModuleState.md)
 
-ModuleState contains fields:
+#### Example
 
-type
-currentHP
-maxHP
-state
-critTimer
-position
+ 	vehicle = battle.getSelfPlayerShip()
+	artilleryModulesStates = vehicle.getArtilleryModulesState()
 
-getArtilleryModulesState()
-Returns list of ModuleState objects for ship guns.
+---
+
+### getConsumablesState()
+
+This function returns list of [_ConsumableState](./_ConsumableState.md) objects for ship.
+
+#### Returns
+- list of objects [_ConsumableState](./_ConsumableState.md)
+
+#### Example
+
+ 	vehicle = battle.getSelfPlayerShip()
+	consumablesState = vehicle.getConsumablesState()
+
+---
 
 getConsumablesState()
 Returns list of ConsumableState objects for ship consumables.
