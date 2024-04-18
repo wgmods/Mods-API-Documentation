@@ -24,6 +24,10 @@ You can get object of this type by following functions:
 
 ### Methods:
 
+- [getTorpedoesModulesState(self)](#getTorpedoesModulesStateself)
+
+---
+
 getTorpedoesModulesState(self)
 Returns list of ModuleState objects for ship torpedoes.
 
