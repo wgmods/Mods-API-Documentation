@@ -11,12 +11,12 @@ An example of subscription to an event:
 - [onFlashReady(func)](#onFlashReadyfunc)
 - [onSFMEvent(func)](#onSFMEventfunc)
 - [onReceiveShellInfo(func)](#onReceiveShellInfofunc)
-- [onBattleStart(func)](#onBattleStartfunc)
 - [onKeyEvent(func)](#onKeyEventfunc)
 - [onMouseEvent(func)](#onMouseEventfunc)
 - [onGotRibbon(func)](#onGotRibbonfunc)
 - [onAchievementEarned(func)](#onAchievementEarnedfunc)
 - [onBattleStatsReceived(func)](#onBattleStatsReceivedfunc)
+- [onBattleStart(func)](#onBattleStartfunc)
 - [onBattleShown(func)](#onBattleShownfunc)
 - [onBattleEnd(func)](#onBattleEndfunc)
 - [onBattleQuit(func)](#onBattleQuitfunc)
@@ -71,15 +71,6 @@ This event is triggered when damage is dealt/received to the enemy/from the enem
     - hlinfo - a tuple with the information about the salvo (list with damage info, salvo ID or salvo number)
 
 ![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/79e4509c-2222-4452-b2b5-e89b81ff63d1)
-
----
-
-### onBattleStart(func)
-
-This event is triggered when a battle starts, after the timer countdown finishes before the battle.
-
-#### Input parameters
-- func - it’s a handler function for the event
 
 ---
 
@@ -144,6 +135,15 @@ This event is triggered when the player gets post battle information.
 
 #### Input parameters
 - func - it’s a handler function for the event, input parameters of the function are arg
+
+---
+
+### onBattleStart(func)
+
+This event is triggered when a battle starts, after the timer countdown finishes before the battle.
+
+#### Input parameters
+- func - it’s a handler function for the event
 
 ---
 
