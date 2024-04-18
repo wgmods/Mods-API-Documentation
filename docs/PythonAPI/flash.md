@@ -4,6 +4,9 @@
 
 - [call(name, args)](#callname-args)
 - [addExternalCallback(name, func)](#addExternalCallbackname-func)
+- [removeExternalCallback(name, func))](#removeExternalCallbackname-func)
+- [loadFlashMod(modName))](#loadFlashModmodName)
+- [loadPyMod(modName))](#loadPyModmodName)
 
 ---
 
@@ -28,5 +31,36 @@ This method adds a callback that signs and calls the function "func" handler in 
 - func - a callback handler function
 
 ![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/11f2c700-6499-42b3-a116-53b4a6d00aa5)
+
+---
+
+### removeExternalCallback(name, func)
+
+This method removes a callback with a "name" identifier for the "func" handler function.
+
+#### Input parameters
+- name - a name, callback key
+- func - a callback handler function
+
+### Note
+When calling this function without parameters, the handler function list for the current mod will be fully cleared.
+
+---
+
+### loadFlashMod(modName)
+
+This method loads the Flash part of the mod if it wasn’t loaded earlier or was unloaded.
+
+#### Input parameters
+- modName - the name of the mod (the name of the folder containing the mod)
+
+---
+
+### loadPyMod(modName)
+
+This method loads the Python part of the mod if it wasn’t loaded earlier or was unloaded. This method will also load the Flash part of the mod.
+
+#### Input parameters
+- modName - the name of the mod (the name of the folder containing the mod)
 
 ---
