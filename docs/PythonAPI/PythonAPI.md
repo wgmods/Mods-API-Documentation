@@ -12,4 +12,5 @@
 - [Torpedo](./Classes/Torpedo.md)
 - [BattleStatistics](./Classes/BattleStatistics.md)
 - [SmokeScreen](./Classes/SmokeScreen.md)
-- [NearestEnemyIndication](./Classes/NearestEnemyIndication.md)
+- [_ModuleState](./Classes/_ModuleState.md)
+- [_ConsumableState](./Classes/_ConsumableState.md)
