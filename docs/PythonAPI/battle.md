@@ -22,6 +22,8 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [getSelfPlayerShip()](#getSelfPlayerShip)
 - [getObserverShip()](#getObserverShip)
 - [getTorpedoOwnerById(ownerId)](#getTorpedoOwnerByIdownerId)
+- [getAllShips()](#getAllShips)
+- [getAllTorpedoes()](#getAllTorpedoes)
 
 ---
 
@@ -234,7 +236,7 @@ If player has no vehicle (observer), returns None.
 This function returns the [Player](./Classes/Player.md) object.
 
 #### Returns
-- object
+- object [Player](./Classes/Player.md)
 
 ---
 
@@ -243,7 +245,7 @@ This function returns the [Player](./Classes/Player.md) object.
 This function returns the self player's [Ship](./Classes/Ship.md) object.
 
 #### Returns
-- object
+- object [Ship](./Classes/Ship.md)
 
 ---
 
@@ -252,24 +254,50 @@ This function returns the self player's [Ship](./Classes/Ship.md) object.
 This function returns the observers's [Ship](./Classes/Ship.md) object (wich nearest to the screen center in observer mode).
 
 #### Returns
-- object
+- object [Ship](./Classes/Ship.md)
 
 ---
 
 ### getTorpedoOwnerById(ownerId)
 
-This function returns the [Player](./Classes/Player.md) object by it's owner Id.
+This function returns the [Player](./Classes/Player.md) object by torpedo owner Id.
 
 #### Input parameters
 - ownerId - torpedo owner Id
 
 #### Returns
-- object
+- object [Player](./Classes/Player.md)
 
 #### Example
 
  	torpedoes = battle.getAllTorpedoes()
 	for torp in torpedoes:
 		torpedoOwner = battle.getTorpedoOwnerById(torp.ownerId) 
+
+---
+
+### getAllShips()
+
+This function returns list of all visible [Ship](./Classes/Ship.md) objects in battle.
+
+#### Returns
+- list of [Ship](./Classes/Ship.md) objects
+
+#### Example
+
+ 	visibleShips = battle.getAllShips()
+
+---
+
+### getAllTorpedoes()
+
+This function returns list of all visible [Torpedo](./Classes/Torpedo.md) objects in battle.
+
+#### Returns
+- list of [Torpedo](./Classes/Torpedo.md) objects
+
+#### Example
+
+ 	visibleTorpedoes = battle.getAllTorpedoes()
 
 ---
