@@ -15,6 +15,7 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [cameraAltVision()](#cameraAltVision)
 - [isObserverMode()](#isObserverMode)
 - [getConsumableState(vehicleId, consumableType)](#getConsumableStatevehicleId-consumableType)
+- [getConsumableNumber(vehicleId, consumableType)](#getConsumableNumbervehicleId-consumableType)
 
 ---
 
@@ -168,3 +169,30 @@ This function returns the required consumable state.
   - PREPARATION = 5
 
 ---
+
+### getConsumableNumber(vehicleId, consumableType)
+
+This function returns the required consumable number.
+
+#### Input parameters
+- vehicleId - the vehicle’s ID
+- consumableType - type of consumable:
+  - CONSUMABLE_CRASH_CREW       = 0
+  - CONSUMABLE_SCOUT            = 1
+  - CONSUMABLE_AIR_DEFENSE_DISP = 2
+  - CONSUMABLE_SPEED_BOOSTER    = 3
+  - CONSUMABLE_TA_BOOSTER       = 4 deprecated
+  - CONSUMABLE_MB_BOOSTER       = 5
+  - CONSUMABLE_HANGAR_BOOSTER   = 6
+  - CONSUMABLE_SMOKE_GENERATOR  = 7
+  - CONSUMABLE_REGEN_CREW       = 9
+  - CONSUMABLE_FIGHTER          = 10
+  - CONSUMABLE_SONAR            = 11
+  - CONSUMABLE_TA_RELOADER      = 12
+  - CONSUMABLE_RLS              = 13
+
+#### Returns
+- int
+
+  ---
+  
