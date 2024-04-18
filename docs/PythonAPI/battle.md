@@ -14,6 +14,7 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [isBattleStarted()](#isBattleStarted)
 - [cameraAltVision()](#cameraAltVision)
 - [isObserverMode()](#isObserverMode)
+- [getConsumableState(vehicleId, consumableType)](#getConsumableState(vehicleId-consumableType))
 
 ---
 
@@ -134,7 +135,36 @@ This function returns True if player enters into the training room as Observer.
 #### Returns
 - true or false
 
+---
 
+### getConsumableState(vehicleId, consumableType)
 
+This function returns the required consumable state.
 
+#### Input parameters
+- vehicleId - the vehicle’s ID
+- consumableType - type of consumable:
+  - CONSUMABLE_CRASH_CREW       = 0
+  - CONSUMABLE_SCOUT            = 1
+  - CONSUMABLE_AIR_DEFENSE_DISP = 2
+  - CONSUMABLE_SPEED_BOOSTER    = 3
+  - CONSUMABLE_TA_BOOSTER       = 4 deprecated
+  - CONSUMABLE_MB_BOOSTER       = 5
+  - CONSUMABLE_HANGAR_BOOSTER   = 6
+  - CONSUMABLE_SMOKE_GENERATOR  = 7
+  - CONSUMABLE_REGEN_CREW       = 9
+  - CONSUMABLE_FIGHTER          = 10
+  - CONSUMABLE_SONAR            = 11
+  - CONSUMABLE_TA_RELOADER      = 12
+  - CONSUMABLE_RLS              = 13
 
+#### Returns
+- consumable state:
+  - READY = 0
+  - SELECTED = 1
+  - AT_WORK = 2
+  - RELOAD = 3
+  - NO_AMMO = 4
+  - PREPARATION = 5
+
+---
