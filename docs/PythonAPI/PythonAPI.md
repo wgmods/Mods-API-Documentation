@@ -9,3 +9,4 @@
 
 - [Player](./Classes/Player.md)
 - [Ship](./Classes/Ship.md)
+- [Torpedo](./Classes/Torpedo.md)
