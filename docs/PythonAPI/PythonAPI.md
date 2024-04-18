@@ -3,3 +3,5 @@
 [callbacks](./callbacks.md)
 
 [events](./events.md)
+
+[flash](./flash.md)
