@@ -10,3 +10,4 @@
 - [Player](./Classes/Player.md)
 - [Ship](./Classes/Ship.md)
 - [Torpedo](./Classes/Torpedo.md)
+- [BattleStatistics](./Classes/BattleStatistics.md)
