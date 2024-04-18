@@ -24,6 +24,8 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [getTorpedoOwnerById(ownerId)](#getTorpedoOwnerByIdownerId)
 - [getAllShips()](#getAllShips)
 - [getAllTorpedoes()](#getAllTorpedoes)
+- [playOnAttentionSound()](#playOnAttentionSound)
+- [getBattleStatistics()](#getBattleStatistics)
 
 ---
 
@@ -299,5 +301,24 @@ This function returns list of all visible [Torpedo](./Classes/Torpedo.md) object
 #### Example
 
  	visibleTorpedoes = battle.getAllTorpedoes()
+
+---
+
+### playOnAttentionSound()
+
+This function plays OnAttention sound.
+
+---
+
+### getBattleStatistics()
+
+This function returns [BattleStatistics](./Classes/BattleStatistics.md) objects in battle.
+
+#### Returns
+- [BattleStatistics](./Classes/BattleStatistics.md) objects
+
+#### Example
+
+ 	battleStatistics = battle.BattleStatistics()
 
 ---
