@@ -229,7 +229,7 @@ If player has no vehicle (observer), returns None.
 
 ### getSelfPlayer()
 
-This function returns the Player object.
+This function returns the [Player](./Classes/Player.md) object.
 
 #### Returns
 - object
