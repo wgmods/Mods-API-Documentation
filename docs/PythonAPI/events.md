@@ -8,6 +8,8 @@ An example of subscription to an event:
 
 ## Available methods:
 
+- [onFlashReady(func)](#onFlashReadyfunc)
+- [onSFMEvent(func)](#onSFMEventfunc)
 - [onReceiveShellInfo(func)](#onReceiveShellInfofunc)
 - [onBattleStart(func)](#onBattleStartfunc)
 - [onBattleQuit(func)](#onBattleQuitfunc)
