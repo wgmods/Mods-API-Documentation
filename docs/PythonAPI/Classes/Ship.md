@@ -23,6 +23,8 @@ You can get object of this type by following functions:
 - [getArtilleryModulesState()](#getArtilleryModulesState)
 - [getConsumablesState()](#getConsumablesState)
 - [getHealthData()](#getHealthData)
+- [getRadarInfo()](#getRadarInfo)
+- [getHydroAcousticSearchInfo()](#getHydroAcousticSearchInfo)
 
 ---
 
@@ -73,7 +75,7 @@ This function returns list of [_ConsumableState](./_ConsumableState.md) objects 
 This function returns [_HealthData](./_HealthData.md) object for ship.
 
 #### Returns
-- list of objects [_HealthData](./_HealthData.md)
+- object [_HealthData](./_HealthData.md)
 
 #### Example
 
@@ -82,15 +84,34 @@ This function returns [_HealthData](./_HealthData.md) object for ship.
 
 ---
 
+### getRadarInfo()
 
-getRadarInfo()
-Returns RadarInfo object for ship.
+This function returns [_SearchConsumableInfo](./_SearchConsumableInfo.md) object for ship's radar (RLS).
 
-RadarInfo contains fields:
+#### Returns
+- object [_SearchConsumableInfo](./_SearchConsumableInfo.md)
 
-distShip - int
-state - int
-workTimeLeft - int
+#### Example
+
+ 	vehicle = battle.getSelfPlayerShip()
+	radarInfo = vehicle.getRadarInfo()
+
+---
+
+### getHydroAcousticSearchInfo()
+
+This function returns [_SearchConsumableInfo](./_SearchConsumableInfo.md) object for ship's Hydro Acoustic Search.
+
+#### Returns
+- object [_SearchConsumableInfo](./_SearchConsumableInfo.md)
+
+#### Example
+
+ 	vehicle = battle.getSelfPlayerShip()
+	hydroAcousticSearchInfo = vehicle.getHydroAcousticSearchInfo()
+
+---
+
 
 getPosition()
 Returns current ship position (Math.Vector3).
