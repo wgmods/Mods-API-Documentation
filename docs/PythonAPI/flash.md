@@ -10,6 +10,8 @@
 - [reloadMod(modName, needToReloadPy))](#reloadModmodName-needToReloadPy)
 - [unloadMod(modName, needToUnloadPy))](#unloadModmodName-needToUnloadPy)
 - [getModsStatus())](#getModsStatus)
+- [setUbMarkup(url, rootElement))](#setUbMarkupurl-rootElement)
+- [setUbData(data))](#setUbDatadata)
 
 ---
 
@@ -101,3 +103,25 @@ This method returns a dict containing keys (mod names) and values (their load st
 
 ---
 
+### setUbMarkup(url, rootElement)
+
+The method loads *.xml file with unbound markup.
+
+#### Input parameters
+- url - path to the xml file with markup, str
+- rootElement - name of the item to load, str
+
+---
+
+### setUbData(data)
+
+The method set data to element scope.
+
+#### Input parameters
+- data - a dictionary in which the key is the name of the variable, value is the value of the variable
+
+### Note
+
+To get data in scope, you need to declare the controller "lesta.api.UbModController".
+
+---
