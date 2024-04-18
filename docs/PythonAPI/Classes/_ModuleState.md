@@ -8,7 +8,7 @@ You can get object of this type from ship by this way:
 
 ### Athributes
 
-- type - string
+- type - str
 - currentHP - float
 - maxHP - float
 - state - int
