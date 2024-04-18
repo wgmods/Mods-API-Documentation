@@ -3,7 +3,7 @@ Class **_HealthData** provides some information about current health of any ship
 You can get object of this type from ship by this way:
 
     vehicle = battle.getSelfPlayerShip()
-    healthData = vehicle.getHealthData() # returns list of _HealthData objects
+    healthData = vehicle.getHealthData() # returns _HealthData object
 
 ### Athributes
 
