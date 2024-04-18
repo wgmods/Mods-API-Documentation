@@ -15,3 +15,6 @@
 - [_ModuleState](./Classes/_ModuleState.md)
 - [_ConsumableState](./Classes/_ConsumableState.md)
 - [_HealthData](./Classes/_HealthData.md)
+- [_SearchConsumableInfo](./Classes/_SearchConsumableInfo.md)
+- [_Modernization](./Classes/_Modernization.md)
+- [_CommanderSkill](./Classes/_CommanderSkill.md)
