@@ -11,3 +11,4 @@
 - [Ship](./Classes/Ship.md)
 - [Torpedo](./Classes/Torpedo.md)
 - [BattleStatistics](./Classes/BattleStatistics.md)
+- [SmokeScreen](./Classes/SmokeScreen.md)
