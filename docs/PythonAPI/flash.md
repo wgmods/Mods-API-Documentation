@@ -7,6 +7,7 @@
 - [removeExternalCallback(name, func))](#removeExternalCallbackname-func)
 - [loadFlashMod(modName))](#loadFlashModmodName)
 - [loadPyMod(modName))](#loadPyModmodName)
+- [reloadMod(modName, needToReloadPy))](#reloadModmodName-needToReloadPy)
 
 ---
 
@@ -62,5 +63,17 @@ This method loads the Python part of the mod if it wasn’t loaded earlier or wa
 
 #### Input parameters
 - modName - the name of the mod (the name of the folder containing the mod)
+
+---
+
+### reloadMod(modName, needToReloadPy)
+
+This method reloads the mod.
+
+#### Input parameters
+- modName – a name, mod identifier
+- needToReloadPy – if it is necessary to reload the Python part of the mod (False is a preset base value of the argument)
+
+![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/9c442ab3-a4bb-46a5-858b-1466b4cab0b3)
 
 ---
