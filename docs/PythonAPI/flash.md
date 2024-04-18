@@ -3,7 +3,6 @@
 ## Available methods:
 
 - [call(name, args)](#callname-args)
-- [onSFMEvent(func)](#onSFMEventfunc)
 
 ---
 
