@@ -16,6 +16,7 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [isObserverMode()](#isObserverMode)
 - [getConsumableState(vehicleId, consumableType)](#getConsumableStatevehicleId-consumableType)
 - [getConsumableNumber(vehicleId, consumableType)](#getConsumableNumbervehicleId-consumableType)
+- [getDistanceInMeters(start, end)](#getDistanceInMetersstart-end)
 
 ---
 
@@ -195,4 +196,18 @@ This function returns the required consumable number.
 - int
 
 ---
-  
+
+### getDistanceInMeters(start, end)
+
+This function returns the distance in meters between two points in 3D space.
+
+#### Input parameters
+- start - start point, tuple(x, y, z)
+- end - end point, tuple(x, y, z)
+
+#### Returns
+- float
+
+---
+
+
