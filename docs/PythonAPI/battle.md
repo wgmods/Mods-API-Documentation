@@ -14,7 +14,7 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [isBattleStarted()](#isBattleStarted)
 - [cameraAltVision()](#cameraAltVision)
 - [isObserverMode()](#isObserverMode)
-- [getConsumableState(vehicleId, consumableType)](#getConsumableState(vehicleId-consumableType))
+- [getConsumableState(vehicleId, consumableType)](#getConsumableStatevehicleId-consumableType)
 
 ---
 
