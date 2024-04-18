@@ -6,10 +6,10 @@ You can get object of this type by function
 
 ### Athributes:
 
-uiId -id of the torpedo iu element, int
-ownerId - int
-ownerTeamId - int
-ownerType - str
-shotId - int
-type - str
-position - Math.Vector3
+- uiId -id of the torpedo iu element, int
+- ownerId - int
+- ownerTeamId - int
+- ownerType - str
+- shotId - int
+- type - str
+- position - Math.Vector3
