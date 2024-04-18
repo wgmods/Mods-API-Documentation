@@ -3,6 +3,7 @@
 ## Available methods:
 
 - [onFlashReady(func)](#onFlashReadyfunc)
+- [onSFMEvent(func)](#onSFMEventfunc)
 
 ---
 
