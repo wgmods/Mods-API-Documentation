@@ -5,3 +5,7 @@
 [events](./events.md)
 
 [flash](./flash.md)
+
+## Available classes:
+
+- [Player](./Classes/Player.md)
