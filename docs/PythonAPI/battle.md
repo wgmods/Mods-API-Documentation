@@ -20,6 +20,8 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [getLearnedCrewSkills()](#getLearnedCrewSkills)
 - [getSelfPlayer()](#getSelfPlayer)
 - [getSelfPlayerShip()](#getSelfPlayerShip)
+- [getObserverShip()](#getObserverShip)
+- [getTorpedoOwnerById(ownerId)](#getTorpedoOwnerByIdownerId)
 
 ---
 
@@ -238,9 +240,36 @@ This function returns the [Player](./Classes/Player.md) object.
 
 ### getSelfPlayerShip()
 
-This function returns the elf player's [Ship](./Classes/Ship.md) object.
+This function returns the self player's [Ship](./Classes/Ship.md) object.
 
 #### Returns
 - object
+
+---
+
+### getObserverShip()
+
+This function returns the observers's [Ship](./Classes/Ship.md) object (wich nearest to the screen center in observer mode).
+
+#### Returns
+- object
+
+---
+
+### getTorpedoOwnerById(ownerId)
+
+This function returns the [Player](./Classes/Player.md) object by it's owner Id.
+
+#### Input parameters
+- ownerId - torpedo owner Id
+
+#### Returns
+- object
+
+#### Example
+
+ 	torpedoes = battle.getAllTorpedoes()
+	for torp in torpedoes:
+		torpedoOwner = battle.getTorpedoOwnerById(torp.ownerId) 
 
 ---
