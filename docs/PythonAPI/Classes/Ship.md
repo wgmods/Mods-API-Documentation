@@ -27,6 +27,9 @@ You can get object of this type by following functions:
 - [getHydroAcousticSearchInfo()](#getHydroAcousticSearchInfo)
 - [getSubmarineLocatorInfo()](#getSubmarineLocatorInfo)
 - [getPosition()](#getPosition)
+- [isAlive()](#isAlive)
+- [getModernizations()](#getModernizations)
+- [getCommanderSkills()](#getCommanderSkills)
 
 ---
 
@@ -145,53 +148,44 @@ Return ship's current position.
 
 ---
 
-isAlive()
-Returns True if ship is alive.
+### isAlive()
 
-getHydroAcousticSearchInfo()
-        Return class with ship's hydro acoustic search info:
+Return ship's alive condition.
 
-distShip - int
-state - int
-workTimeLeft - int
+#### Returns
+- true or false
 
-        Example:
-        vehicle = battle.getSelfPlayerShip()
-        radarInfo = vehicle.getHydroAcousticSearchInfo()
+#### Example
 
-getSubmarineLocatorInfo()
-        Return class with ship's submarine locator info (underwater search):
+ 	vehicle = battle.getSelfPlayerShip()
+	isAlive = vehicle.isAlive()
 
-distShip - int
-state - int
-workTimeLeft - int
+---
 
-        Example:
-        vehicle = battle.getSelfPlayerShip()
-        submarineLocatorInfo = vehicle.getSubmarineLocatorInfo()
+### getModernizations()
 
-getModernizations()
-        Return list of ship's modernizations. Each modernization contains fields:
+This function returns list of [_Modernization](./_Modernization.md) objects for ship.
 
-type - int
-slotNumber - int
-iconPath - str
+#### Returns
+- list of objects [_Modernization](./_Modernization.md)
 
-        Example:
-        vehicle = battle.getSelfPlayerShip()
-        modernizations = vehicle.getModernizations()
+#### Example
 
-getCommanderSkills()
-       Return list of ship commander's skills. Each skill contains fields:
+ 	vehicle = battle.getSelfPlayerShip()
+	modernizations = vehicle.getModernizations()
 
-name - str
-isLearned - bool
-isEpic - bool
+---
 
-iconPath - str
+### getCommanderSkills()
 
-        Example:
-        vehicle = battle.getSelfPlayerShip()
-        commanderSkills = vehicle.getCommanderSkills()
+This function returns list of [_CommanderSkill](./_CommanderSkill.md) objects for ship.
 
+#### Returns
+- list of objects [_CommanderSkill](./_CommanderSkill.md)
 
+#### Example
+
+ 	vehicle = battle.getSelfPlayerShip()
+	commanderSkills = vehicle.getCommanderSkills()
+
+---
