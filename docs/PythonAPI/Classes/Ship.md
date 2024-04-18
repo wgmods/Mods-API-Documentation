@@ -25,6 +25,8 @@ You can get object of this type by following functions:
 - [getHealthData()](#getHealthData)
 - [getRadarInfo()](#getRadarInfo)
 - [getHydroAcousticSearchInfo()](#getHydroAcousticSearchInfo)
+- [getSubmarineLocatorInfo()](#getSubmarineLocatorInfo)
+- [getPosition()](#getPosition)
 
 ---
 
@@ -87,9 +89,10 @@ This function returns [_HealthData](./_HealthData.md) object for ship.
 ### getRadarInfo()
 
 This function returns [_SearchConsumableInfo](./_SearchConsumableInfo.md) object for ship's radar (RLS).
+Returns None if consumable is not installed on the ship.
 
 #### Returns
-- object [_SearchConsumableInfo](./_SearchConsumableInfo.md)
+- object [_SearchConsumableInfo](./_SearchConsumableInfo.md) or None
 
 #### Example
 
@@ -101,9 +104,10 @@ This function returns [_SearchConsumableInfo](./_SearchConsumableInfo.md) object
 ### getHydroAcousticSearchInfo()
 
 This function returns [_SearchConsumableInfo](./_SearchConsumableInfo.md) object for ship's Hydro Acoustic Search.
+Returns None if consumable is not installed on the ship.
 
 #### Returns
-- object [_SearchConsumableInfo](./_SearchConsumableInfo.md)
+- object [_SearchConsumableInfo](./_SearchConsumableInfo.md) or None
 
 #### Example
 
@@ -112,9 +116,34 @@ This function returns [_SearchConsumableInfo](./_SearchConsumableInfo.md) object
 
 ---
 
+### getSubmarineLocatorInfo()
 
-getPosition()
-Returns current ship position (Math.Vector3).
+This function returns [_SearchConsumableInfo](./_SearchConsumableInfo.md) object for ship's Submarine Locator.
+Returns None if consumable is not installed on the ship.
+
+#### Returns
+- object [_SearchConsumableInfo](./_SearchConsumableInfo.md) or None
+
+#### Example
+
+ 	vehicle = battle.getSelfPlayerShip()
+	submarineLocatorInfo = vehicle.getSubmarineLocatorInfo()
+
+---
+
+### getPosition()
+
+Return ship's current position.
+
+#### Returns
+- object Math.Vector3
+
+#### Example
+
+ 	vehicle = battle.getSelfPlayerShip()
+	position = vehicle.getPosition()
+
+---
 
 isAlive()
 Returns True if ship is alive.
