@@ -30,10 +30,10 @@ You can get object of this type by following functions:
 
 ### getTorpedoesModulesState()
 
-This function returns list of [_ModuleState](./Classes/_ModuleState.md) objects for ships torpedoes modules.
+This function returns list of [_ModuleState](./_ModuleState.md) objects for ships torpedoes modules.
 
 #### Returns
-- list of objects [_ModuleState](./Classes/_ModuleState.md)
+- list of objects [_ModuleState](./_ModuleState.md)
 
 #### Example
 
