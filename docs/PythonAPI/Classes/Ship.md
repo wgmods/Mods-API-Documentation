@@ -24,9 +24,27 @@ You can get object of this type by following functions:
 
 ### Methods:
 
-- [getTorpedoesModulesState(self)](#getTorpedoesModulesStateself)
+- [getTorpedoesModulesState()](#getTorpedoesModulesState)
 
 ---
+
+### getTorpedoesModulesState()
+
+This function returns list of [Player](./Classes/Player.md) objects.
+
+#### Returns
+- list of objects [Player](./Classes/Player.md)
+
+#### Example
+
+ 	vehicle = battle.getSelfPlayerShip()
+	torpedoesModulesStates = vehicle.getTorpedoesModulesState()
+
+---
+
+
+#### Input parameters
+- ownerId - torpedo owner Id
 
 getTorpedoesModulesState(self)
 Returns list of ModuleState objects for ship torpedoes.
