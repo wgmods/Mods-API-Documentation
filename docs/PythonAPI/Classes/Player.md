@@ -2,7 +2,7 @@ Class **Player** provides some information about Player.
 
 You can get object of this type by function
 
-    battle.getSelfPlayer()
+    player = battle.getSelfPlayer()
 
 ### Athributes:
 
