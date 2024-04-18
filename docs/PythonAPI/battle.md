@@ -27,6 +27,7 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [playOnAttentionSound()](#playOnAttentionSound)
 - [getBattleStatistics()](#getBattleStatistics)
 - [getSmokeScreens()](#getSmokeScreens)
+- [getNearestEnemyIndication()](#getNearestEnemyIndication)
 
 ---
 
@@ -337,3 +338,15 @@ This function returns list of all visible [SmokeScreen](./Classes/SmokeScreen.md
 
 ---
 
+### getNearestEnemyIndication()
+
+This function returns the [NearestEnemyIndication](./Classes/NearestEnemyIndication.md) object.
+
+#### Returns
+- object [NearestEnemyIndication](./Classes/NearestEnemyIndication.md)
+
+#### Example
+
+ 	nearestEnemyIndication = battle.getNearestEnemyIndication() 
+
+---
