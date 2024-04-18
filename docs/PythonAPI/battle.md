@@ -18,6 +18,8 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [getConsumableNumber(vehicleId, consumableType)](#getConsumableNumbervehicleId-consumableType)
 - [getDistanceInMeters(start, end)](#getDistanceInMetersstart-end)
 - [getLearnedCrewSkills()](#getLearnedCrewSkills)
+- [getSelfPlayer()](#getSelfPlayer)
+- [getSelfPlayerShip()](#getSelfPlayerShip)
 
 ---
 
@@ -222,5 +224,23 @@ If player has no vehicle (observer), returns None.
 
 #### Returns
 - list or None
+
+---
+
+### getSelfPlayer()
+
+This function returns the Player object.
+
+#### Returns
+- object
+
+---
+
+### getSelfPlayerShip()
+
+This function returns the elf player's Ship object.
+
+#### Returns
+- object
 
 ---
