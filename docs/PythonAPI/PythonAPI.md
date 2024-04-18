@@ -1,10 +1,9 @@
-[battle](./battle.md)
+## Available modules:
 
-[callbacks](./callbacks.md)
-
-[events](./events.md)
-
-[flash](./flash.md)
+- [battle](./battle.md)
+- [callbacks](./callbacks.md)
+- [events](./events.md)
+- [flash](./flash.md)
 
 ## Available classes:
 
