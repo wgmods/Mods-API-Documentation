@@ -13,4 +13,4 @@ You can get object of this type from ship by this way:
 - regenWorkTimeLeft - float
 - regenerationHealth - float
 - maxHealth - float
-- health - health
+- health - float
