@@ -26,6 +26,7 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [getAllTorpedoes()](#getAllTorpedoes)
 - [playOnAttentionSound()](#playOnAttentionSound)
 - [getBattleStatistics()](#getBattleStatistics)
+- [getSmokeScreens()](#getSmokeScreens)
 
 ---
 
@@ -322,3 +323,17 @@ This function returns [BattleStatistics](./Classes/BattleStatistics.md) objects 
  	battleStatistics = battle.BattleStatistics()
 
 ---
+
+### getSmokeScreens()
+
+This function returns list of all visible [SmokeScreen](./Classes/SmokeScreen.md) objects in battle.
+
+#### Returns
+- list of [SmokeScreen](./Classes/SmokeScreen.md) objects
+
+#### Example
+
+ 	smokeScreens = battle.getSmokeScreens()
+
+---
+
