@@ -3,14 +3,9 @@ Class **Ship** provides some information about players ship.
 You can get object of this type by following functions:
 
     battle.getAllShips()
-
     battle.getSelfPlayerShip()
-
     battle.getObserverShip()
-
     battle.getTorpedoOwnerById(ownerId)
-
-
 
 ### Athributes:
 
@@ -27,6 +22,7 @@ You can get object of this type by following functions:
 - [getTorpedoesModulesState()](#getTorpedoesModulesState)
 - [getArtilleryModulesState()](#getArtilleryModulesState)
 - [getConsumablesState()](#getConsumablesState)
+- [getHealthData()](#getHealthData)
 
 ---
 
@@ -72,28 +68,20 @@ This function returns list of [_ConsumableState](./_ConsumableState.md) objects 
 
 ---
 
-getConsumablesState()
-Returns list of ConsumableState objects for ship consumables.
+### getHealthData()
 
-ConsumableState contains fields:
+This function returns [_HealthData](./_HealthData.md) object for ship.
 
-icon - str
-num - int
-currentState
-endTime
+#### Returns
+- list of objects [_HealthData](./_HealthData.md)
 
-getHealthData()
-Returns HealthData object for ship.
+#### Example
 
-HealthData contains fields:
+ 	vehicle = battle.getSelfPlayerShip()
+	healthData = vehicle.getHealthData()
 
-regenPerUsage
-regenWorkTime - float
-regenNum - int
-regenWorkTimeLeft
-regenerationHealth
-maxHealth
-health
+---
+
 
 getRadarInfo()
 Returns RadarInfo object for ship.
