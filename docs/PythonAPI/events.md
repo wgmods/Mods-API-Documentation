@@ -8,6 +8,10 @@ An example of subscription to an event:
 
 ## Available methods:
 
+- [onBattleStart(func)](#onBattleStartfunc)
+- [onBattleShown(func)](#onBattleShownfunc)
+- [onBattleEnd(func)](#onBattleEndfunc)
+- [onBattleQuit(func)](#onBattleQuitfunc)
 - [onFlashReady(func)](#onFlashReadyfunc)
 - [onSFMEvent(func)](#onSFMEventfunc)
 - [onReceiveShellInfo(func)](#onReceiveShellInfofunc)
@@ -16,10 +20,42 @@ An example of subscription to an event:
 - [onGotRibbon(func)](#onGotRibbonfunc)
 - [onAchievementEarned(func)](#onAchievementEarnedfunc)
 - [onBattleStatsReceived(func)](#onBattleStatsReceivedfunc)
-- [onBattleStart(func)](#onBattleStartfunc)
-- [onBattleShown(func)](#onBattleShownfunc)
-- [onBattleEnd(func)](#onBattleEndfunc)
-- [onBattleQuit(func)](#onBattleQuitfunc)
+- [onPlayersListUpdated(func)](#onPlayersListUpdatedfunc)
+- [onObserverdShipChanged(func)](#onObserverdShipChangedfunc)
+
+---
+
+### onBattleStart(func)
+
+This event is triggered when a battle starts, after the timer countdown finishes before the battle.
+
+#### Input parameters
+- func - it’s a handler function for the event
+
+---
+
+### onBattleShown(func)
+
+This event is triggered after the timer countdown finishes and when a battle arena shown.
+
+#### Input parameters
+- func - it’s a handler function for the event
+
+---
+
+### onBattleEnd(func)
+This event is triggered when a battle is ended.
+
+#### Input parameters
+- func - it’s a handler function for the event
+
+---
+
+### onBattleQuit(func)
+This event is triggered when exiting a battle and/or exiting the game.
+
+#### Input parameters
+- func - it’s a handler function for the event, when handling an event, the function gets one argument - true
 
 ---
 
@@ -138,36 +174,21 @@ This event is triggered when the player gets post battle information.
 
 ---
 
-### onBattleStart(func)
+### onPlayersListUpdated(func)
 
-This event is triggered when a battle starts, after the timer countdown finishes before the battle.
-
-#### Input parameters
-- func - it’s a handler function for the event
-
----
-
-### onBattleShown(func)
-
-This event is triggered after the timer countdown finishes and when a battle arena shown.
+This event is triggered when information in the list of players changes.
 
 #### Input parameters
 - func - it’s a handler function for the event
 
 ---
 
-### onBattleEnd(func)
-This event is triggered when a battle is ended.
+### onObserverdShipChanged(func)
+
+This event is triggered when the ship to which the camera is attached changes.
 
 #### Input parameters
 - func - it’s a handler function for the event
 
 ---
 
-### onBattleQuit(func)
-This event is triggered when exiting a battle and/or exiting the game.
-
-#### Input parameters
-- func - it’s a handler function for the event, when handling an event, the function gets one argument - true
-
----
