@@ -7,7 +7,7 @@ You can get object of this type from ship by this way:
 
 ### Athributes
 
-- name - string
+- name - str
 - isLearned - bool
 - isEpic - bool
-- iconPath - path to icon, string
+- iconPath - path to icon, str
