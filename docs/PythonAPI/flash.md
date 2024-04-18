@@ -8,6 +8,8 @@
 - [loadFlashMod(modName))](#loadFlashModmodName)
 - [loadPyMod(modName))](#loadPyModmodName)
 - [reloadMod(modName, needToReloadPy))](#reloadModmodName-needToReloadPy)
+- [unloadMod(modName, needToUnloadPy))](#unloadModmodName-needToUnloadPy)
+- [getModsStatus())](#getModsStatus)
 
 ---
 
@@ -77,3 +79,25 @@ This method reloads the mod.
 ![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/9c442ab3-a4bb-46a5-858b-1466b4cab0b3)
 
 ---
+
+### unloadMod(modName, needToUnloadPy)
+
+This method unloads (switches off) the mod.
+
+#### Input parameters
+- modName – a name, mod identifier
+- needToUnloadPy- if it is necessary to unload the Python part of the mod (False is a base value of the argument)
+
+---
+
+### getModsStatus()
+
+This method returns a dict containing keys (mod names) and values (their load statuses (True/False)).
+
+#### Returns
+- dict
+
+![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/5d55936d-4cb8-4b5c-ac02-289aef42a0ef)
+
+---
+
