@@ -12,13 +12,14 @@ An example of subscription to an event:
 - [onSFMEvent(func)](#onSFMEventfunc)
 - [onReceiveShellInfo(func)](#onReceiveShellInfofunc)
 - [onBattleStart(func)](#onBattleStartfunc)
-- [onBattleQuit(func)](#onBattleQuitfunc)
 - [onKeyEvent(func)](#onKeyEventfunc)
 - [onMouseEvent(func)](#onMouseEventfunc)
 - [onGotRibbon(func)](#onGotRibbonfunc)
 - [onAchievementEarned(func)](#onAchievementEarnedfunc)
 - [onBattleStatsReceived(func)](#onBattleStatsReceivedfunc)
 - [onBattleShown(func)](#onBattleShownfunc)
+- [onBattleEnd(func)](#onBattleEndfunc)
+- [onBattleQuit(func)](#onBattleQuitfunc)
 
 ---
 
@@ -79,14 +80,6 @@ This event is triggered when a battle starts, after the timer countdown finishes
 
 #### Input parameters
 - func - it’s a handler function for the event
-
----
-
-### onBattleQuit(func)
-This event is triggered when exiting a battle and/or exiting the game.
-
-#### Input parameters
-- func - it’s a handler function for the event, when handling an event, the function gets one argument - true
 
 ---
 
@@ -160,5 +153,21 @@ This event is triggered after the timer countdown finishes and when a battle are
 
 #### Input parameters
 - func - it’s a handler function for the event
+
+---
+
+### onBattleEnd(func)
+This event is triggered when a battle is ended.
+
+#### Input parameters
+- func - it’s a handler function for the event
+
+---
+
+### onBattleQuit(func)
+This event is triggered when exiting a battle and/or exiting the game.
+
+#### Input parameters
+- func - it’s a handler function for the event, when handling an event, the function gets one argument - true
 
 ---
