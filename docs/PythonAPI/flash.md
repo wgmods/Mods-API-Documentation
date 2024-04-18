@@ -2,27 +2,19 @@
 
 ## Available methods:
 
-- [onFlashReady(func)](#onFlashReadyfunc)
+- [call(name, args)](#callname-args)
 - [onSFMEvent(func)](#onSFMEventfunc)
 
 ---
 
-### onFlashReady(func)
+### call(name, args)
 
-This event is triggered immediately after a Flash part of the "Main.swf" mod is loaded and initialized (if available).
-
-#### Input parameters
-- func - it’s a handler function for the event (def func(modName): ), it gets modName as an input argument, it’s a name of the mod containing the loaded Flash part
-
----
-
-### onSFMEvent(func)
-
-This method allows you to work with various SFM machine events, such as showing or hiding different windows, pressing some buttons, pressing a keyboard or mouse button, entering a battle, etc.
+This method calls a callback allowing you to call a function in the mod’s Flash file.
 
 #### Input parameters
-- func - it is a handler function for events that takes two parameters from the SFM machine, such as eventName (an event name), and eventData (dict with event parameters)
+- name – a name, callback key to which the function in the Flash part must be subscribed
+- args – a list containing passed parameters (or an empty list without parameters) that will be passed to the called function for further handling
 
-![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/318b9986-b71f-4d9b-99f9-fc0613286fa3)
+![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/e3480155-0d78-4ac1-a321-97d94b91d8c9)
 
 ---
