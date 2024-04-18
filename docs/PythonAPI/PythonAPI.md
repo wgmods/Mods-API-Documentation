@@ -14,3 +14,4 @@
 - [SmokeScreen](./Classes/SmokeScreen.md)
 - [_ModuleState](./Classes/_ModuleState.md)
 - [_ConsumableState](./Classes/_ConsumableState.md)
+- [_HealthData](./Classes/_HealthData.md)
