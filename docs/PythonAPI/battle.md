@@ -17,6 +17,7 @@ Working with **battle** methods is only possible after entering a battle (for a 
 - [getConsumableState(vehicleId, consumableType)](#getConsumableStatevehicleId-consumableType)
 - [getConsumableNumber(vehicleId, consumableType)](#getConsumableNumbervehicleId-consumableType)
 - [getDistanceInMeters(start, end)](#getDistanceInMetersstart-end)
+- [getLearnedCrewSkills()](#getLearnedCrewSkills)
 
 ---
 
@@ -210,4 +211,16 @@ This function returns the distance in meters between two points in 3D space.
 
 ---
 
+### getLearnedCrewSkills()
 
+This function returns the list with player's commander leaned skills names.
+If player has no vehicle (observer), returns None.
+
+#### Input parameters
+- start - start point, tuple(x, y, z)
+- end - end point, tuple(x, y, z)
+
+#### Returns
+- list or None
+
+---
