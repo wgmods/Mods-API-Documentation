@@ -22,6 +22,8 @@ An example of subscription to an event:
 - [onBattleStatsReceived(func)](#onBattleStatsReceivedfunc)
 - [onPlayersListUpdated(func)](#onPlayersListUpdatedfunc)
 - [onObserverdShipChanged(func)](#onObserverdShipChangedfunc)
+- [onFlashReady(func)](#onFlashReadyfunc)
+- [onSFMEvent(func)](#onSFMEventfunc)
 
 ---
 
