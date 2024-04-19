@@ -6,6 +6,7 @@
 - [getModDir()](#getModDir)
 - [stat(path)](#statpath)
 - [walk(top, topdown=True, followlinks=False)](#walktop-topdownTrue-followlinksFalse)
+- [isFile(path)](#isFilepath)
 
 ---
 
@@ -60,3 +61,18 @@ You can see full documentation on this function on the official Python website h
 
 ---
 
+### isFile(path)
+
+The method is similar to "os.path.isfile(path)".
+
+It returns "True" if the file exists on the given "path".
+
+You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/os.path.html#os.path.isfile
+
+#### Input parameters
+- path - a path to the file, str
+
+#### Returns
+- bool
+
+---
