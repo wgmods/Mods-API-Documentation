@@ -14,7 +14,7 @@
 - [getTimeFromGameStart()](#getTimeFromGameStart)
 - [jsonEncode(obj)](#jsonEncodeobj)
 - [jsonDncode(s)](#jsonDncodes)
-- [logInfo(message='', *args, **kwargs)](#logInfomessage=-args-kwargs)
+- [logInfo(message='', *args, **kwargs)](#logInfomessage-args-kwargs)
 
 ---
 
