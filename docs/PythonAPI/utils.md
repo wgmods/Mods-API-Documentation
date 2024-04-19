@@ -11,6 +11,7 @@
 - [isPathExists(path)](#isPathExistspath)
 - [timeNowUTC()](#timeNowUTC)
 - [timeNow()](#timeNow)
+- [getTimeFromGameStart()](#getTimeFromGameStart)
 
 ---
 
@@ -122,7 +123,7 @@ It returns the current UTC and date.
 You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/datetime.html#datetime.datetime.utcnow
 
 #### Returns
-- int
+- object
 
 ---
 
@@ -136,5 +137,14 @@ You can see full documentation on this function on the official Python website h
 
 #### Returns
 - object
+
+---
+
+### getTimeFromGameStart()
+
+The method returns the time passed from game start in seconds.
+
+#### Returns
+- float
 
 ---
