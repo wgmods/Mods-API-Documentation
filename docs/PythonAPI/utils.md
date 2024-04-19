@@ -14,6 +14,7 @@
 - [getTimeFromGameStart()](#getTimeFromGameStart)
 - [jsonEncode(obj)](#jsonEncodeobj)
 - [jsonDncode(s)](#jsonDncodes)
+- [logInfo(message='', *args, **kwargs)](#logInfomessage=-args-kwargs)
 
 ---
 
@@ -182,3 +183,15 @@ You can see full documentation on this function on the official Python website h
 - object
 
 ---
+
+### logInfo(message='', *args, **kwargs)
+
+The method displays information in the file *python.log*.
+
+#### Input parameters
+- message - message to the log file, str
+- * args - positional arguments
+- ** kwargs - named arguments
+
+---
+
