@@ -1,6 +1,6 @@
-Working with **battle** methods is only possible after entering a battle (for a situation when an event is triggered, see the "events" methods), otherwise methods do not return anything as information they handle is only available in battle. 
+Working with **battle** methods is only possible after entering a battle (for a situation when an event is triggered, see the [events](./events.md) methods), otherwise methods do not return anything as information they handle is only available in battle. 
 
-To handle events you need to use **events.onSFMEvent** (see the description below in the "events" methods), returned parameters of this event are "eventName" (an event name), "eventData" (a dict with event parameters).
+To handle events you need to use **events.onSFMEvent** (see the description below in the [events](./events.md) methods), returned parameters of this event are **eventName** (an event name), **eventData** (a dict with event parameters).
 
 ## Available methods:
 
