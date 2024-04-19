@@ -2,7 +2,7 @@ Module **customPorts** allows you to add your own port.
 
 ## Available methods:
 
-- [addCustomPort(portName, portDisplayName = DEFAULT_NAME, isPremium = False, peculiarities = None)](#addCustomPortportName-portDisplayName-DEFAULT_NAME-isPremium-False-peculiarities-None)
+- [addCustomPort(portName, portDisplayName = DEFAULT_NAME, isPremium = False, peculiarities = None)](#addCustomPortportName-portDisplayName--DEFAULT_NAME-isPremium--False-peculiarities--None)
 
 ---
 
