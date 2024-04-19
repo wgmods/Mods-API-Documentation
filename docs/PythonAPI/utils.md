@@ -32,7 +32,7 @@ This function returns an absolute path to the folder with the current mod.
 
 The method returns an object with attributes corresponding to attributes "os.stat(path)".
 
-You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/os.html#os.stat
+You can see full documentation on this function on the official Python website here:  https://docs.python.org/2/library/os.html#os.stat
 
 #### Input parameters
 - path - path to the file, str
@@ -48,7 +48,7 @@ The method generates file names in the directory tree moving along the tree down
 
 The method is similar to "os.walk(top, topdown=True, onerror=None, followlinks=False)".
 
-You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/os.html#os.walk
+You can see full documentation on this function on the official Python website here:  https://docs.python.org/2/library/os.html#os.walk
 
 #### Input parameters
 - "top" is a directory in the mod folder (if it exists) where the method will pass
