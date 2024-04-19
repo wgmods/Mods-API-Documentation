@@ -14,10 +14,14 @@ The full list of all components and their fields can be found in the **Component
 ### getFirstEntity(componentName)
 The method returns the first entity object from the **componentName** collection (ex. dataHub.getFirstEntity ('playerAvatar')).
 
-
-The input parameter componentName (<type 'str'>) - the name of the component, begins with a small letter.
+#### Input parameters
+- componentName - the name of the component, begins with a small letter, str
 
 #### Returns
 - object
+
+#### Example
+
+    playerAvatar = dataHub.getFirstEntity ('playerAvatar')
 
 ---
