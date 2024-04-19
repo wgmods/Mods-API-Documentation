@@ -43,13 +43,11 @@ You can see full documentation on this function on the official Python website h
 ### walk(top, topdown=True, followlinks=False)
 
 The method generates file names in the directory tree moving along the tree down from the top or vice versa; for every  directory in the tree it is fixed in the top part of the directory switching on the top.
-
-The method is similar to "os.walk(top, topdown=True, onerror=None, followlinks=False)"
-
+The method is similar to "os.walk(top, topdown=True, onerror=None, followlinks=False)".
 You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/os.html#os.walk
 
 #### Input parameters
-- "top" is a directory in the mod folder (if it exists) where the method will pass (see "C:\Games\World_of_Warships\res_mods\0.7.9.1\PnFMods\TestMod\testDir"),
+- "top" is a directory in the mod folder (if it exists) where the method will pass
 - "topdown" is a way of passing: "True" is top down (a base value), "False" is bottom up
 
 #### Returns
