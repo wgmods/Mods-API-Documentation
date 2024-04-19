@@ -7,6 +7,7 @@
 - [stat(path)](#statpath)
 - [walk(top, topdown=True, followlinks=False)](#walktop-topdownTrue-followlinksFalse)
 - [isFile(path)](#isFilepath)
+- [isDir(path)](#isDirpath)
 
 ---
 
@@ -65,9 +66,25 @@ You can see full documentation on this function on the official Python website h
 
 The method is similar to "os.path.isfile(path)".
 
-It returns "True" if the file exists on the given "path".
+It returns **true** if the file exists on the given path.
 
 You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/os.path.html#os.path.isfile
+
+#### Input parameters
+- path - a path to the file, str
+
+#### Returns
+- bool
+
+---
+
+### isDir(path)
+
+The method is similar to "os.path.isDir(path)".
+
+It returns **true**, if the directory exists on the given path.
+
+You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/os.path.html#os.path.isdir
 
 #### Input parameters
 - path - a path to the file, str
