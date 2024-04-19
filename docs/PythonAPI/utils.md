@@ -10,7 +10,7 @@
 - [isDir(path)](#isDirpath)
 - [isPathExists(path)](#isPathExistspath)
 - [timeNowUTC()](#timeNowUTC)
-- [timeNow()](#timeNow())
+- [timeNow()](#timeNow)
 
 ---
 
