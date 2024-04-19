@@ -12,6 +12,8 @@
 - [timeNowUTC()](#timeNowUTC)
 - [timeNow()](#timeNow)
 - [getTimeFromGameStart()](#getTimeFromGameStart)
+- [jsonEncode(obj)](#jsonEncodeobj)
+- [jsonDncode(s)](#jsonDncodes)
 
 ---
 
@@ -146,5 +148,37 @@ The method returns the time passed from game start in seconds.
 
 #### Returns
 - float
+
+---
+
+### jsonEncode(obj)
+
+The method is similar to *json.dumps(obj, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, encoding="utf-8", default=None, sort_keys=False)* with corresponding base values.
+
+The method serializes the object **obj** to a **JSON** line.
+
+You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/json.html#json.dumps
+
+#### Input parameters
+- obj - ogject
+
+#### Returns
+- JSON string
+
+---
+
+### jsonDncode(s)
+
+The method is similar to **json.loads(s)**.
+
+It deserializes a **JSON** string to a Python object.
+
+You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/json.html#json.loads
+
+#### Input parameters
+- s - JSON string
+
+#### Returns
+- object
 
 ---
