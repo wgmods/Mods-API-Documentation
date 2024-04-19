@@ -6,6 +6,7 @@ Module **web** allows you to work with web resources.
 - [addAllowedUrl(encodedUrl)](#addAllowedUrlencodedUrl)
 - [openUrl(url)](#openUrlurl)
 - [urlEncode(query)](#urlEncodequery)
+- [urlQuote(s, safe='/')](#urlQuotes-safe)
 
 ---
 
@@ -44,7 +45,16 @@ It is used for coding a line in the format following the rules for data in queri
 
 You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/urllib.html#urllib.urlencode
 
+---
+
+### urlQuote(s, safe='/')
+The method is similar to **urllib.quote(string, safe)**.
+It replaces all special symbols by strings **%nn**. Numbers, Latin characters and underscore characters, dots and hyphens are not coded. Spaces are converted into the string **%20**.
+
+You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/urllib.html#urllib.quote
+
 #### Input parameters
-- query - str
+- s - the line where replacements are made, str
+- safe - is a symbols that cannot be converted
 
 ---
