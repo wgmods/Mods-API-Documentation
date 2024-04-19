@@ -135,6 +135,6 @@ It returns the current time and date.
 You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/datetime.html#datetime.datetime.now
 
 #### Returns
-- int
+- object
 
 ---
