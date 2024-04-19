@@ -18,7 +18,7 @@ This method adds a new port to the port selection menu.
 
 #### Example
     shipPositions = {
-	   1: {'Cruiser':	( (1.0, 0.0, 0.0), 0.0, 0.0, 0.0, False )}
+	   1: {'Cruiser':( (1.0, 0.0, 0.0), 0.0, 0.0, 0.0, False )}
     }
     customPorts.addCustomPort('Exterior', portDisplayName = 'Intania', shipPositions = shipPositions )
 
