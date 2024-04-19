@@ -47,7 +47,7 @@ This method removes a callback with a "name" identifier for the "func" handler f
 - name - a name, callback key
 - func - a callback handler function
 
-### Note
+#### Note
 When calling this function without parameters, the handler function list for the current mod will be fully cleared.
 
 ---
@@ -120,7 +120,7 @@ The method set data to element scope.
 #### Input parameters
 - data - a dictionary in which the key is the name of the variable, value is the value of the variable
 
-### Note
+#### Note
 
 To get data in scope, you need to declare the controller "lesta.api.UbModController".
 
