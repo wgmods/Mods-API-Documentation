@@ -2,6 +2,7 @@
 
 - [battle](./battle.md)
 - [callbacks](./callbacks.md)
+- [customPorts](./customPorts.md)
 - [events](./events.md)
 - [flash](./flash.md)
 - [utils](./utils.md)
