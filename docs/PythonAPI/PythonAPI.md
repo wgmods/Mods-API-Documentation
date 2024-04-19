@@ -5,6 +5,7 @@
 - [events](./events.md)
 - [flash](./flash.md)
 - [utils](./utils.md)
+- [web](./web.md)
 
 ## Available classes:
 
