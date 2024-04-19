@@ -3,10 +3,12 @@
 - [battle](./battle.md)
 - [callbacks](./callbacks.md)
 - [customPorts](./customPorts.md)
+- [dataHub](./dataHub.md)
 - [devmenu](./devmenu.md)
 - [dock](./dock.md)
 - [events](./events.md)
 - [flash](./flash.md)
+- [ui](./ui.md)
 - [utils](./utils.md)
 - [web](./web.md)
 
