@@ -3,6 +3,7 @@
 - [battle](./battle.md)
 - [callbacks](./callbacks.md)
 - [customPorts](./customPorts.md)
+- [devmenu](./devmenu.md)
 - [dock](./dock.md)
 - [events](./events.md)
 - [flash](./flash.md)
