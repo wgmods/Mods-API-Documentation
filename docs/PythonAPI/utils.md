@@ -5,7 +5,7 @@
 - [getGameVersion()](#getGameVersion)
 - [getModDir()](#getModDir)
 - [stat(path)](#statpath)
-- [walk(top, topdown=True, followlinks=False)](#walktop-topdown=True-followlinks=False)
+- [walk(top, topdown=True, followlinks=False)](#walktop-topdownTrue-followlinksFalse)
 
 ---
 
