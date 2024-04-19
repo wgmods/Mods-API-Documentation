@@ -30,6 +30,7 @@ This function returns an absolute path to the folder with the current mod.
 ### stat(path)
 
 The method returns an object with attributes corresponding to attributes "os.stat(path)".
+
 You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/os.html#os.stat
 
 #### Input parameters
