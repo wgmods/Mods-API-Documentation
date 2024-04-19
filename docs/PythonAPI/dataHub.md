@@ -1,4 +1,6 @@
-## TThis module is deprecated, using ui module recommended instead this
+## This module is deprecated, using [ui](./ui.md) module recommended instead this
+
+---
 
 Module **dataHub** gives the access to the game data if access to it was not restricted.
 
