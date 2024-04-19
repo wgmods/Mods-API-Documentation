@@ -42,18 +42,18 @@ You can see full documentation on this function on the official Python website h
 
 ### walk(top, topdown=True, followlinks=False)
 
-The method is similar to "os.walk(top, topdown=True, onerror=None, followlinks=False)" where:
-  - "top" is a directory in the mod folder (if it exists) where the method will pass (see "C:\Games\World_of_Warships\res_mods\0.7.9.1\PnFMods\TestMod\testDir"),
-  - "topdown" is a way of passing: "True" is top down (a base value), "False" is bottom up, generates file names in the directory tree moving along the tree down from the top or vice versa; for every  directory in the tree it is fixed in the top part of the directory switching on the top, and returns the following parameters:
-  - "dirpath" is a string, a path to the directory
-  - "dirnames" is a list, a list of sub-directory names in the directory "dirpath"
-  - "filenames" is a list, a list of file names in this directory
-
+The method generates file names in the directory tree moving along the tree down from the top or vice versa; for every  directory in the tree it is fixed in the top part of the directory switching on the top.
+The method is similar to "os.walk(top, topdown=True, onerror=None, followlinks=False)"
 You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/os.html#os.walk
 
 #### Input parameters
 - "top" is a directory in the mod folder (if it exists) where the method will pass (see "C:\Games\World_of_Warships\res_mods\0.7.9.1\PnFMods\TestMod\testDir"),
-- "topdown" is a way of passing: "True" is top down (a base value), "False" is bottom up, generates file names in the directory tree moving along the tree down from the top or vice versa; for every  directory in the tree it is fixed in 
+- "topdown" is a way of passing: "True" is top down (a base value), "False" is bottom up
 
 #### Returns
-- object
+- dirpath - a path to the directory, str
+- dirnames - a list of sub-directory names in the directory "dirpath"
+- filenames - a list of file names in this directory
+
+---
+
