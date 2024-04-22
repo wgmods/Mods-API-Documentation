@@ -15,6 +15,7 @@
 - [battle](./battle.md)
 - [callbacks](./callbacks.md)
 - [constants](./constants.md)
+- [contentSDK](./contentSDK.md)
 - [customPorts](./customPorts.md)
 - [dataHub](./dataHub.md)
 - [devmenu](./devmenu.md)
