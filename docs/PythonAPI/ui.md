@@ -183,7 +183,7 @@ The method deletes required component from the ui element.
 
 #### Input parameters
 - uiID - ID of the ui element, returned by [createUiElement()](#createUiElement) method, int
-- componentId - ID of the deleting component, int ([constants](/.constants).UiComponents)
+- componentId - ID of the deleting component, [constants](./constants.md).UiComponents
 
 #### Example:
     uiElementID = ui.createUiElement()
@@ -195,10 +195,10 @@ The method deletes required component from the ui element.
 The method returns ID of the ui element, which contains required component.
 
 #### Input parameters
-- componentId - ID of the required  component, int (([constants](/.constants).UiComponents)
+- componentId - ID of the required  component, [constants](./constants.md).UiComponents
 
 #### Example:
-    cameraUiElementId = ui.getUiElementByComponentId(([constants](/.constants).UiComponents.camera)
+    cameraUiElementId = ui.getUiElementByComponentId(([constants](./constants.md).UiComponents.camera)
 
 ---
 
