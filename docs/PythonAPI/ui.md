@@ -23,7 +23,7 @@ The method creates the empty ui object and returns its ID.
 The method adds the mods_DataComponent to the ui element.
 
 #### Input parameters
-- uiID - ID of the ui element, to which DataComponent will be added, returned by createUiElement() method, int
+- uiID - ID of the ui element, to which DataComponent will be added, returned by [createUiElement()](#createUiElement) method, int
 - initData - initialisation data for data component if needed, dict
 
 #### Example:
@@ -33,10 +33,10 @@ The method adds the mods_DataComponent to the ui element.
 ---
 
 ### addDataComponentWithId(uiID, componentId, initData)
-The method adds the mods_DataComponent wirt ID to the ui element.
+The method adds the mods_DataComponent with ID to the ui element.
 
 #### Input parameters
-- uiID - ID of the ui element, to which DataComponent will be added, returned by createUiElement() method, int
+- uiID - ID of the ui element, to which DataComponent will be added, returned by [createUiElement()](#createUiElement) method, int
 - componentId - ID of the adding component, int or str
 - initData - initialisation data for data component if needed, dict
 
