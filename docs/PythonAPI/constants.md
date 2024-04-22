@@ -15,6 +15,7 @@ where:
 - [RewardType](#RewardType)
 - [ShipTypes](#ShipTypes)
 - [ConsumableStates](#ConsumableStates)
+- [PlayerRelation](#PlayerRelation)
 
 ---
 
@@ -241,5 +242,14 @@ where:
 - RELOAD = 3
 - NO_AMMO = 4
 - PREPARATION = 5
+
+---
+
+### PlayerRelation:
+
+- SELF = 0
+- ALLY = 1
+- ENEMY = 2
+- NEUTRAL = 3
 
 ---
