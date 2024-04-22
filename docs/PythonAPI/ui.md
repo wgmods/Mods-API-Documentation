@@ -8,6 +8,7 @@ Module **ui** contains methods for working with game's UI.
 - [addWorldPositionComponent(uiID, position, yaw)](#addWorldPositionComponentuiID-position-yaw)
 - [addScreenPositionComponent(uiID)](#addScreenPositionComponentuiID)
 - [addMinimapAttentionComponent(uiID)](#addMinimapAttentionComponentuiID)
+- [addRelationComponent(uiID, relation)](#addRelationComponentuiID-relation)
 
 ---
 
@@ -84,5 +85,20 @@ The method adds the MinimapAttentionPoint component to the ui element.
 #### Example:
     uiElementID = ui.createUiElement()
     ui.addMinimapAttentionComponent(uiElementID)
+
+---
+
+### addRelationComponent(uiID, relation)
+The method adds the Relation component to the ui element.
+
+#### Input parameters
+- uiID - ID of the ui element, to which component will be added, returned by [createUiElement()](#createUiElement) method, int
+- relation - value of Relation to the Player, int
+
+#### Example:
+    uiElementID = ui.createUiElement()
+    ui.addRelationComponent(elementID, value = constants.PlayerRelation.ENEMY)
+
+---
 
 ---
