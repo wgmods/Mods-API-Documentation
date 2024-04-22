@@ -4,6 +4,7 @@ Module **ui** contains methods for working with game's UI.
 
 - [createUiElement()](#createUiElement)
 - [addDataComponent(uiID, initData)](#addDataComponentuiID-initData)
+- [addDataComponentWithId(uiID, componentId, initData)](#addDataComponentWithIduiID-componentId-initData)
 
 ---
 
@@ -31,3 +32,16 @@ The method adds the mods_DataComponent to the ui element.
 
 ---
 
+### addDataComponentWithId(uiID, componentId, initData)
+The method adds the mods_DataComponent wirt ID to the ui element.
+
+#### Input parameters
+- uiID - ID of the ui element, to which DataComponent will be added, returned by createUiElement() method, int
+- componentId - ID of the adding component, int or str
+- initData - initialisation data for data component if needed, dict
+
+#### Example:
+    uiElementID = ui.createUiElement()
+    ui.addDataComponentWithId(uiElementID, 'my_mod_data', {parameterOne = 1.0, parameterTeo = 10})
+
+---
