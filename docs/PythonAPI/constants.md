@@ -18,7 +18,7 @@ where:
 - UNKNOWN = 0
 - CREDITS = 1
 - SIGNALS = 2
-- # CONSUMABLES = 3
+- CONSUMABLES = 3 **depricated**
 - LUCKY = 4
 - EPIC = 5
 - SANTA_1 = 6
