@@ -6,6 +6,8 @@ Module **ui** contains methods for working with game's UI.
 - [addDataComponent(uiID, initData)](#addDataComponentuiID-initData)
 - [addDataComponentWithId(uiID, componentId, initData)](#addDataComponentWithIduiID-componentId-initData)
 - [addWorldPositionComponent(uiID, position, yaw)](#addWorldPositionComponentuiID-position-yaw)
+- [addScreenPositionComponent(uiID)](#addScreenPositionComponentuiID)
+- [addMinimapAttentionComponent(uiID)](#addMinimapAttentionComponentuiID)
 
 ---
 
@@ -58,5 +60,29 @@ The method adds the WorldPosition component to the ui element.
 #### Example:
     uiElementID = ui.createUiElement()
     ui.addWorldPositionComponent(uiElementID, Math.Vector3(0.5, 0, 0), yaw)
+
+---
+
+### addScreenPositionComponent(uiID)
+The method adds the ScreenPosition component to the ui element.
+
+#### Input parameters
+- uiID - ID of the ui element, to which component will be added, returned by [createUiElement()](#createUiElement) method, int
+
+#### Example:
+    uiElementID = ui.createUiElement()
+    ui.addScreenPositionComponent(uiElementID)
+
+---
+
+### addMinimapAttentionComponent(uiID)
+The method adds the MinimapAttentionPoint component to the ui element.
+
+#### Input parameters
+- uiID - ID of the ui element, to which component will be added, returned by [createUiElement()](#createUiElement) method, int
+
+#### Example:
+    uiElementID = ui.createUiElement()
+    ui.addMinimapAttentionComponent(uiElementID)
 
 ---
