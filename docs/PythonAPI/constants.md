@@ -257,3 +257,4 @@ where:
 
 ### UiComponents:
 
+The full list of all components and their fields can be found in the Components.xml file in the game resources.
