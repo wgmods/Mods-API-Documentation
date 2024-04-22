@@ -14,6 +14,7 @@ where:
 - [DamageType](#DamageType)
 - [RewardType](#RewardType)
 - [ShipTypes](#ShipTypes)
+- [ConsumableStates](#ConsumableStates)
 
 ---
 
@@ -231,3 +232,6 @@ where:
 - SUBMARINE = 'Submarine'
 
 ---
+
+### ConsumableStates:
+
