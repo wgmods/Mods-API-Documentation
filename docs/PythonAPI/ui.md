@@ -8,6 +8,7 @@ Module **ui** contains methods for working with game's UI.
 - [addWorldPositionComponent(uiID, position, yaw)](#addWorldPositionComponentuiID-position-yaw)
 - [addScreenPositionComponent(uiID)](#addScreenPositionComponentuiID)
 - [addMapPositionComponent(uiID)](#addMapPositionComponentuiID)
+- [removeUiElementFromMiniMap(uiID)](#removeUiElementFromMiniMapuiID)
 - [addMinimapAttentionComponent(uiID)](#addMinimapAttentionComponentuiID)
 - [addRelationComponent(uiID, relation)](#addRelationComponentuiID-relation)
 - [addParameterComponent(uiID, parameterId)](#addParameterComponentuiID-parameterId)
@@ -87,9 +88,22 @@ The method adds the MapPosition  component to the ui element. It's shows ui elem
 
 #### Example:
     uiElementID = ui.createUiElement()
-    ui.showUiElementOnMiniMap(elementID)
+    ui.addMapPositionComponent(uiElementID)
 
 ---
+
+### removeUiElementFromMiniMap(uiID)
+The method removes ui element from the battle mini map.
+
+#### Input parameters
+- uiID - ID of the ui element, returned by [createUiElement()](#createUiElement) method, int
+
+#### Example:
+    uiElementID = ui.createUiElement()
+    ui.removeUiElementFromMiniMap(uiElementID)
+
+---
+
 ### addMinimapAttentionComponent(uiID)
 The method adds the MinimapAttentionPoint component to the ui element.
 
