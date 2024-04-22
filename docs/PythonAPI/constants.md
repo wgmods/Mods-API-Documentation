@@ -11,6 +11,7 @@ where:
 
 - [LootboxType](#LootboxType)
 - [RibbonsType](#RibbonsType)
+- [DamageType](#DamageType)
 
 ---
 
@@ -156,5 +157,43 @@ where:
 - RIBBON_ROCKET_BULGE = 30
 - RIBBON_ROCKET_RICOCHET = 34
 - RIBBON_ROCKET_OVER_PENETRATION = 35
+
+---
+
+### DamageType:
+
+- WEAPON_MAIN_AP     = 1
+- WEAPON_MAIN_HE     = 2
+- WEAPON_ATBA_AP     = 3
+- WEAPON_ATBA_HE     = 4
+- WEAPON_MAIN_AI_AP  = 5
+- WEAPON_MAIN_AI_HE  = 6
+- WEAPON_TORPEDO     = 7
+- WEAPON_ANTIAIR     = 8
+- WEAPON_BOMBER_AP   = 10
+- WEAPON_BOMBER_HE   = 11
+- WEAPON_TBOMBER     = 12
+- WEAPON_FIGHTER     = 13
+- WEAPON_SFIGHTER    = 14
+- WEAPON_TURRET      = 15
+- WEAPON_SPOT        = 16
+- WEAPON_BURN        = 17
+- WEAPON_RAM         = 18
+- WEAPON_TERRAIN     = 19
+- WEAPON_FLOOD       = 20
+- WEAPON_MIRROR      = 21
+- WEAPON_CONS_SPOT   = 24
+- WEAPON_SEA_MINE    = 25
+- WEAPON_FEL         = 26
+- WEAPON_DBOMB       = 27
+- WEAPON_ROCKET_HE   = 28
+- WEAPON_AA_NEAR     = 29
+- WEAPON_AA_MEDIUM   = 30
+- WEAPON_AA_FAR      = 31
+- WEAPON_MAIN_CS     = 32
+- WEAPON_ATBA_CS     = 33
+- WEAPON_ROCKET_AP   = 34
+- WEAPON_SKIP_HE	   = 35
+- WEAPON_SKIP_AP     = 36
 
 ---
