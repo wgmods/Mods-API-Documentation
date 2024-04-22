@@ -9,6 +9,7 @@ Module **ui** contains methods for working with game's UI.
 - [addScreenPositionComponent(uiID)](#addScreenPositionComponentuiID)
 - [addMinimapAttentionComponent(uiID)](#addMinimapAttentionComponentuiID)
 - [addRelationComponent(uiID, relation)](#addRelationComponentuiID-relation)
+- [addParameterComponent(uiID, parameterId)](#addParameterComponentuiID-parameterId)
 
 ---
 
@@ -97,8 +98,19 @@ The method adds the Relation component to the ui element.
 
 #### Example:
     uiElementID = ui.createUiElement()
-    ui.addRelationComponent(elementID, value = constants.PlayerRelation.ENEMY)
+    ui.addRelationComponent(uiElementID, value = constants.PlayerRelation.ENEMY)
 
 ---
+
+### addParameterComponent(uiID, parameterId)
+The method adds the Parameter component to the ui element.
+
+#### Input parameters
+- uiID - ID of the ui element, to which component will be added, returned by [createUiElement()](#createUiElement) method, int
+- parameterId - ID of Parameter componentstr, str
+
+#### Example:
+    uiElementID = ui.createUiElement()
+    ui.addParameterComponent(uiElementID, 'modParametersList')
 
 ---
