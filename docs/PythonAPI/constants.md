@@ -16,6 +16,7 @@ where:
 - [ShipTypes](#ShipTypes)
 - [ConsumableStates](#ConsumableStates)
 - [PlayerRelation](#PlayerRelation)
+- [UiComponents](#UiComponents)
 
 ---
 
@@ -253,3 +254,6 @@ where:
 - NEUTRAL = 3
 
 ---
+
+### UiComponents:
+
