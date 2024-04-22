@@ -5,6 +5,7 @@ Module **ui** contains methods for working with game's UI.
 - [createUiElement()](#createUiElement)
 - [addDataComponent(uiID, initData)](#addDataComponentuiID-initData)
 - [addDataComponentWithId(uiID, componentId, initData)](#addDataComponentWithIduiID-componentId-initData)
+- [addWorldPositionComponent(uiID, position, yaw)](#addWorldPositionComponentuiID-position-yaw)
 
 ---
 
@@ -43,5 +44,19 @@ The method adds the mods_DataComponent with ID to the ui element.
 #### Example:
     uiElementID = ui.createUiElement()
     ui.addDataComponentWithId(uiElementID, 'my_mod_data', {parameterOne = 1.0, parameterTeo = 10})
+
+---
+
+### addWorldPositionComponent(uiID, position, yaw)
+The method adds the WorldPosition component to the ui element.
+
+#### Input parameters
+- uiID - ID of the ui element, to which component will be added, returned by [createUiElement()](#createUiElement) method, int
+- position - position of the component in the game world (in the battle), Math.Vector3
+- yaw - float
+
+#### Example:
+    uiElementID = ui.createUiElement()
+    ui.addWorldPositionComponent(uiElementID, Math.Vector3(0.5, 0, 0), yaw)
 
 ---
