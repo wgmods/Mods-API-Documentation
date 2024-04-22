@@ -221,4 +221,13 @@ where:
 
 ---
 
-### ShipTypes
+### ShipTypes:
+
+- AIRCARRIER = 'AirCarrier'
+- BATTLESHIP = 'Battleship'
+- CRUISER    = 'Cruiser'
+- DESTROYER  = 'Destroyer'
+- AUXILIARY  = 'Auxiliary'
+- SUBMARINE = 'Submarine'
+
+---
