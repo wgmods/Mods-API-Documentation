@@ -123,6 +123,9 @@ Returns True if the ui element contains required component
 - uiID - ID of the ui element, to which component will be added, returned by [createUiElement()](#createUiElement) method, int
 - omponentId - ID of the required component, int
 
+#### Input parameters
+- bool
+
 #### Example:
     uiElementID = ui.createUiElement()
     elementHasScreenPosition = ui.hasComponent(uiElementID, constants.UiComponents.screenPosition)
