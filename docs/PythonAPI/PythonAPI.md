@@ -1,10 +1,14 @@
-## Available packages:
+## Available client's packages:
 
 - time
 - datetime
 - xml
 - xml.dom
 - Keys
+- re
+- math
+- Math
+- SpatialUI
 
 ## Available modules:
 
