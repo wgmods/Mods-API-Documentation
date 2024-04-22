@@ -2,6 +2,7 @@
 
 - [battle](./battle.md)
 - [callbacks](./callbacks.md)
+- [constants](./constants.md)
 - [customPorts](./customPorts.md)
 - [dataHub](./dataHub.md)
 - [devmenu](./devmenu.md)
