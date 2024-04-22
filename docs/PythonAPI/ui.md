@@ -132,7 +132,7 @@ The method adds the Relation component to the ui element.
 
 #### Example:
     uiElementID = ui.createUiElement()
-    ui.addRelationComponent(uiElementID, value = constants.PlayerRelation.ENEMY)
+    ui.addRelationComponent(uiElementID, value = ([constants](/.constants).PlayerRelation.ENEMY)
 
 ---
 
@@ -183,7 +183,7 @@ The method deletes required component from the ui element.
 
 #### Input parameters
 - uiID - ID of the ui element, returned by [createUiElement()](#createUiElement) method, int
-- componentId - ID of the deleting component, int (constantsGate.UiComponents)
+- componentId - ID of the deleting component, int ([constants](/.constants).UiComponents)
 
 #### Example:
     uiElementID = ui.createUiElement()
@@ -195,10 +195,10 @@ The method deletes required component from the ui element.
 The method returns ID of the ui element, which contains required component.
 
 #### Input parameters
-- componentId - ID of the required  component, int (constantsGate.UiComponents)
+- componentId - ID of the required  component, int (([constants](/.constants).UiComponents)
 
 #### Example:
-    cameraUiElementId = ui.getUiElementByComponentId(constants.UiComponents.camera)
+    cameraUiElementId = ui.getUiElementByComponentId(([constants](/.constants).UiComponents.camera)
 
 ---
 
