@@ -13,6 +13,7 @@ Module **ui** contains methods for working with game's UI.
 - [addRelationComponent(uiID, relation)](#addRelationComponentuiID-relation)
 - [addParameterComponent(uiID, parameterId)](#addParameterComponentuiID-parameterId)
 - [hasComponent(uiID, componentId)](#hasComponentuiID-componentId)
+- [updateUiElementData(uiID, data))](#updateUiElementDatauiID-data)
 
 ---
 
@@ -143,17 +144,30 @@ The method adds the Parameter component to the ui element.
 ---
 
 ### hasComponent(uiID, componentId)
-Returns True if the ui element contains required component
+The method returns True if the ui element contains required component
 
 #### Input parameters
-- uiID - ID of the ui element, to which component will be added, returned by [createUiElement()](#createUiElement) method, int
+- uiID - ID of the ui element, returned by [createUiElement()](#createUiElement) method, int
 - omponentId - ID of the required component, int
 
-#### Input parameters
+#### Returns
 - bool
 
 #### Example:
     uiElementID = ui.createUiElement()
     elementHasScreenPosition = ui.hasComponent(uiElementID, constants.UiComponents.screenPosition)
+
+---
+
+### updateUiElementData(uiID, data)
+The method updates data of the mods_DataComponent of ui element.
+
+#### Input parameters
+- uiID - ID of the ui element, returned by [createUiElement()](#createUiElement) method, int
+- data - new data for the DataComponent, dict
+
+#### Example:
+    uiElementID = ui.createUiElement()
+    updateUiElementData(elementID, {'newValue': 1000.0})
 
 ---
