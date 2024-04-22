@@ -16,6 +16,8 @@ Module **ui** contains methods for working with game's UI.
 - [updateUiElementData(uiID, data)](#updateUiElementDatauiID-data)
 - [deleteComponent(uiID, componentId)](#deleteComponentuiID-componentId)
 - [getUiElementByComponentId(componentId)](#getUiElementByComponentIdcomponentId)
+- [getLengthOnMiniMap(length)](#getLengthOnMiniMaplength)
+- [setUiPreference(hideInBattleStatus=None)](#setUiPreferencehideInBattleStatusNone)
 
 ---
 
@@ -195,5 +197,28 @@ The method returns ID of the ui element, which contains required component.
 
 #### Example:
     cameraUiElementId = ui.getUiElementByComponentId(constants.UiComponents.camera)
+
+---
+
+### getLengthOnMiniMap(length)
+The method recalculates length from battle world to battle mini map.
+
+#### Input parameters
+- length - length in battle world, float
+
+#### Example:
+    radiusOnMiniMap = ui.getLengthOnMiniMap(100.0)
+
+---
+
+### setUiPreference(hideInBattleStatus=None)
+The method setup required ui settings parameter.
+Can be extended by request in future.
+
+#### Input parameters
+- hideInBattleStatus - required parameter name with bool value
+
+#### Example:
+    ui.setUiPreference(hideInBattleStatus=True)
 
 ---
