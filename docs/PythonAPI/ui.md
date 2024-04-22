@@ -175,7 +175,7 @@ The method updates data of the mods_DataComponent of ui element.
 ---
 
 ### deleteComponent(uiID, componentId)
-The method delete required component from the ui element.
+The method deletes required component from the ui element.
 
 #### Input parameters
 - uiID - ID of the ui element, returned by [createUiElement()](#createUiElement) method, int
