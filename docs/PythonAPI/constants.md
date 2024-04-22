@@ -235,3 +235,11 @@ where:
 
 ### ConsumableStates:
 
+- READY = 0
+- SELECTED = 1
+- AT_WORK = 2
+- RELOAD = 3
+- NO_AMMO = 4
+- PREPARATION = 5
+
+---
