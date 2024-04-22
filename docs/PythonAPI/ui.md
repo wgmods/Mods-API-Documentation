@@ -18,6 +18,7 @@ Module **ui** contains methods for working with game's UI.
 - [getUiElementByComponentId(componentId)](#getUiElementByComponentIdcomponentId)
 - [getLengthOnMiniMap(length)](#getLengthOnMiniMaplength)
 - [setUiPreference(hideInBattleStatus=None)](#setUiPreferencehideInBattleStatusNone)
+- [getUserPrefs(sectionName, parameterName, defaultValue)](#getUserPrefssectionName-parameterName-defaultValue)
 
 ---
 
@@ -220,5 +221,19 @@ Can be extended by request in future.
 
 #### Example:
     ui.setUiPreference(hideInBattleStatus=True)
+
+---
+
+### setUiPreference(hideInBattleStatus=None)
+The method returns required ui settings parameter..
+Can be extended by request in future.
+
+#### Input parameters
+- sectionName - required section name, str
+- parameterName - required parameter name,str
+- defaultValue - default return value, some of python's types
+
+#### Example:
+    userPref = ui.getUserPrefs('chatBoxWidth', 'requiredParameterName', 0.7)
 
 ---
