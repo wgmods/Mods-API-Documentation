@@ -19,6 +19,7 @@ Module **ui** contains methods for working with game's UI.
 - [getLengthOnMiniMap(length)](#getLengthOnMiniMaplength)
 - [setUiPreference(hideInBattleStatus=None)](#setUiPreferencehideInBattleStatusNone)
 - [getUserPrefs(sectionName, parameterName, defaultValue)](#getUserPrefssectionName-parameterName-defaultValue)
+- [clearData()](#clearData)
 
 ---
 
@@ -224,9 +225,8 @@ Can be extended by request in future.
 
 ---
 
-### setUiPreference(hideInBattleStatus=None)
-The method returns required ui settings parameter..
-Can be extended by request in future.
+### getUserPrefs(sectionName, parameterName, defaultValue)
+The method returns required ui settings parameter.
 
 #### Input parameters
 - sectionName - required section name, str
@@ -235,5 +235,13 @@ Can be extended by request in future.
 
 #### Example:
     userPref = ui.getUserPrefs('chatBoxWidth', 'requiredParameterName', 0.7)
+
+---
+
+### clearData()
+The method deletes all mods_DataComponent components from data hub.
+
+#### Example:
+    events.onBattleQuit(ui.clearData())
 
 ---
