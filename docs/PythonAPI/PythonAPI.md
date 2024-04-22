@@ -1,3 +1,11 @@
+## Available packages:
+
+- time
+- datetime
+- xml
+- xml.dom
+- Keys
+
 ## Available modules:
 
 - [battle](./battle.md)
