@@ -13,7 +13,9 @@ Module **ui** contains methods for working with game's UI.
 - [addRelationComponent(uiID, relation)](#addRelationComponentuiID-relation)
 - [addParameterComponent(uiID, parameterId)](#addParameterComponentuiID-parameterId)
 - [hasComponent(uiID, componentId)](#hasComponentuiID-componentId)
-- [updateUiElementData(uiID, data))](#updateUiElementDatauiID-data)
+- [updateUiElementData(uiID, data)](#updateUiElementDatauiID-data)
+- [deleteComponent(uiID, componentId)](#deleteComponentuiID-componentId)
+- [getUiElementByComponentId(componentId)](#getUiElementByComponentIdcomponentId)
 
 ---
 
@@ -168,6 +170,30 @@ The method updates data of the mods_DataComponent of ui element.
 
 #### Example:
     uiElementID = ui.createUiElement()
-    updateUiElementData(elementID, {'newValue': 1000.0})
+    ui.updateUiElementData(elementID, {'newValue': 1000.0})
+
+---
+
+### deleteComponent(uiID, componentId)
+The method delete required component from the ui element.
+
+#### Input parameters
+- uiID - ID of the ui element, returned by [createUiElement()](#createUiElement) method, int
+- componentId - ID of the deleting component, int (constantsGate.UiComponents)
+
+#### Example:
+    uiElementID = ui.createUiElement()
+    ui.deleteComponent(uiElementID, constants.UiComponents.screenPosition)
+
+---
+
+### getUiElementByComponentId(componentId)
+The method returns ID of the ui element, which contains required component.
+
+#### Input parameters
+- componentId - ID of the required  component, int (constantsGate.UiComponents)
+
+#### Example:
+    cameraUiElementId = ui.getUiElementByComponentId(constants.UiComponents.camera)
 
 ---
