@@ -2,6 +2,7 @@
 
 - [gameAPI.data.call(methodName:String, params:Array):void](#gameAPIdatacallmethodNameString-paramsArrayvoid)
 - [gameAPI.data.addCallBack(methodName:String, func:Function):void](#gameAPIdataaddCallBackmethodNameString-funcFunctionvoid)
+- [gameAPI.data.removeCallBack(methodName:String=null, callBack:Function=null):void](#gameAPIdataremoveCallBackmethodNameStringnull-callBackFunctionnullvoid)
 
 ---
 
@@ -21,6 +22,6 @@ The method adds a callback to get information from Python (in Python - [flash.ca
 - methodName – a name, callback key the function in the Flash part of the mod is subscribed to (Main.swf file)
 - func – a callback handler function
 
-[flash.call(name, args)](../PythonAPI/flash.md/##callname-args)
-
 ---
+
+### gameAPI.data.removeCallBack(methodName:String=null, callBack:Function=null):void
