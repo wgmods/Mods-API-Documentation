@@ -1,6 +1,6 @@
 ## Available methods:
 
-- [gameAPI.data.call(methodName:String, params:Array):void](#gameAPIdatacallmethodNameString-params:Arrayvoid)
+- [gameAPI.data.call(methodName:String, params:Array):void](#gameAPIdatacallmethodNameString-paramsArrayvoid)
 
 ---
 
