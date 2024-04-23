@@ -5,7 +5,7 @@ This module methods allow you to work with **Stage**.
 - [gameAPI.stage.addChild(child:displayObject)](#gameAPIstageaddChildchilddisplayObject)
 - [gameAPI.stage.addChildAt(child:displayObject, index:int)](#gameAPIstageaddChildAtchilddisplayObject-indexint)
 - [gameAPI.stage.removeChild(child:displayObject)](#gameAPIstageremoveChildchilddisplayObject)
-- [gameAPI.stage.removeChildAt(index:int)](#gameAPIstageremoveChildAtindex:int)
+- [gameAPI.stage.removeChildAt(index:int)](#gameAPIstageremoveChildAtindexint)
 
 ---
 
