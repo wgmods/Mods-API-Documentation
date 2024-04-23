@@ -1,4 +1,14 @@
 ## Available methods:
 
-- [getPlayersInfo()](#getPlayersInfo)
+- [gameAPI.data.call(methodName:String, params:Array):void](#gameAPIdatacallmethodNameString-params:Arrayvoid)
 
+---
+
+### gameAPI.data.call(methodName:String, params:Array):void
+The method allows you to pass information to the Python part of the mod.
+
+#### Input parameters
+- methodName - a name, callback key the Python function is subscribed to (in Python - flash.addExternalCallback(name, func) where **name** corresponds to **methodName**)
+- params – an array of passed parameters
+
+---
