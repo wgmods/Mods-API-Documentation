@@ -3,7 +3,7 @@ This module methods allow you to work with **Stage**.
 ## Available methods:
 
 - [gameAPI.stage.addChild(child:displayObject)](#gameAPIstageaddChildchilddisplayObject)
-- [gameAPI.stage.addChildAt(child:displayObject, index:int)](#gameAPIstageaddChildAtchilddisplayObjectindexint)
+- [gameAPI.stage.addChildAt(child:displayObject, index:int)](#gameAPIstageaddChildAtchilddisplayObject-indexint)
 
 ---
 
