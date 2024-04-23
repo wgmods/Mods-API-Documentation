@@ -25,3 +25,10 @@ The method adds a callback to get information from Python (in Python - [flash.ca
 ---
 
 ### gameAPI.data.removeCallBack(methodName:String=null, callBack:Function=null):void
+The method removes a callback the Flash function is subscribed to.
+
+#### Input parameters
+- methodName - callback key the function in the Flash part of the mod is subscribed to (Main.swf file)
+- callBack - a callback handler function
+
+---
