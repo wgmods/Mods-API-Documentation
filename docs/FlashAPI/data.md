@@ -15,12 +15,12 @@ The method allows you to pass information to the Python part of the mod.
 ---
 
 ### gameAPI.data.addCallBack(methodName:String, func:Function):void
-The method adds a callback to get information from Python (in Python - flash.call(name, args)) the Flash function is subscribed to.
+The method adds a callback to get information from Python (in Python - [flash.call(name, args)](../PythonAPI/flash.md/##callname-args) the Flash function is subscribed to.
 
 #### Input parameters
 - methodName – a name, callback key the function in the Flash part of the mod is subscribed to (Main.swf file)
 - func – a callback handler function
 
-[flash.call(name, args)](../PythonAPI/flash.md/#addExternalCallbackname-func)
+[flash.call(name, args)](../PythonAPI/flash.md/##callname-args)
 
 ---
