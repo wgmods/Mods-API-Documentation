@@ -4,6 +4,7 @@ This module methods allow you to work with **Stage**.
 
 - [gameAPI.stage.addChild(child:displayObject)](#gameAPIstageaddChildchilddisplayObject)
 - [gameAPI.stage.addChildAt(child:displayObject, index:int)](#gameAPIstageaddChildAtchilddisplayObject-indexint)
+- [gameAPI.stage.removeChild(child:displayObject)](#gameAPIstageremoveChildchilddisplayObject)
 
 ---
 
@@ -25,3 +26,10 @@ Like the **addChildAt** method, it adds a **DispalyObject** to a certain layer o
 
 ---
 
+### gameAPI.stage.removeChild(child:displayObject)
+The method removes a DispalyObject from the Stage.
+
+#### Input parameters
+- child - is a DisplayObject that should be removed from the Stage
+
+---
