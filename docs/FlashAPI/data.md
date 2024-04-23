@@ -1,1 +1,4 @@
+## Available methods:
+
+- [getPlayersInfo()](#getPlayersInfo)
 
