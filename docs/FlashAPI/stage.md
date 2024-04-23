@@ -5,6 +5,7 @@ This module methods allow you to work with **Stage**.
 - [gameAPI.stage.addChild(child:displayObject)](#gameAPIstageaddChildchilddisplayObject)
 - [gameAPI.stage.addChildAt(child:displayObject, index:int)](#gameAPIstageaddChildAtchilddisplayObject-indexint)
 - [gameAPI.stage.removeChild(child:displayObject)](#gameAPIstageremoveChildchilddisplayObject)
+- [gameAPI.stage.removeChildAt(index:int)](#gameAPIstageremoveChildAtindex:int)
 
 ---
 
@@ -31,5 +32,13 @@ The method removes a DispalyObject from the Stage.
 
 #### Input parameters
 - child - is a DisplayObject that should be removed from the Stage
+
+---
+
+### gameAPI.stage.removeChildAt(index:int)
+The method removes the top layer from the Stage.
+
+#### Input parameters
+- index - is an indexing number of the layer where a DisplayObject should be removed
 
 ---
