@@ -1,3 +1,5 @@
+**Data Bridge Module** methods allow the mod to pass or receive data to/from the Python part of the mod.
+
 ## Available methods:
 
 - [gameAPI.data.call(methodName:String, params:Array):void](#gameAPIdatacallmethodNameString-paramsArrayvoid)
