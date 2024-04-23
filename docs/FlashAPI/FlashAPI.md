@@ -12,3 +12,6 @@ Then we rework the script in the "Main.as" file of the project for our mod templ
 
 We can create the Flash part of our mod now. As you see, our main class has the basic class "ModBase" contained in the added library, the Flash file of the mod will not work without it.
 
+## Available modules:
+
+- [data](./data.md)
