@@ -15,3 +15,4 @@ We can create the Flash part of our mod now. As you see, our main class has the 
 ## Available modules:
 
 - [data](./data.md)
+- [stage](./stage.md)
