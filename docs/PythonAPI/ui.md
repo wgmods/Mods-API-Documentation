@@ -21,6 +21,10 @@ Module **ui** contains methods for working with game's UI.
 - [getUserPrefs(sectionName, parameterName, defaultValue)](#getUserPrefssectionName-parameterName-defaultValue)
 - [clearData()](#clearData)
 
+## Available components:
+
+- [mods_DataComponent](#mods_DataComponent)
+
 ---
 
 ### createUiElement()
@@ -248,3 +252,8 @@ The method deletes all mods_DataComponent components from data hub.
     events.onBattleQuit(ui.clearData())
 
 ---
+
+### mods_DataComponent
+
+---
+
