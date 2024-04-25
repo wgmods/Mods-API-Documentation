@@ -290,6 +290,8 @@ Then UI unbound code will look like this:
     (macro GET_MARKER_ENTITY_COMPONENT 'mods_DataComponent')
     (var modData:str = "mods_DataComponentComponent ? mods_DataComponentComponent.data['modTwoData']: []" (event "mods_DataComponentComponent.evDataChanged"))
 
+So, you can show different UI information on the ship in two different mods using one UI component.
+
 #### Note
 *Will be able from client version 13.5 !* 
 
