@@ -63,6 +63,9 @@ The method adds the mods_DataComponent with ID to the ui element.
     uiElementID = ui.createUiElement()
     ui.addDataComponentWithId(uiElementID, 'my_mod_data', {parameterOne = 1.0, parameterTeo = 10})
 
+#### Note
+*Will be able from client version 13.5 !* 
+
 ---
 
 ### addWorldPositionComponent(uiID, position, yaw)
