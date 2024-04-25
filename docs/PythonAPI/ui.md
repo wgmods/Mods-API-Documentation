@@ -269,11 +269,13 @@ To add this component with specified ID use method [addDataComponentWithId(uiID,
 #### Example
 If two mods adding a new UI element tied to the player's ship, then the Python code will look like this:
 
-*In mod One*
+
+    *In mod One*
     ship = battle.getSelfPlayerShip()
     ui.updateUiElementData(ship.uiId, {'modOneData': 'mod one data fo player's ship'})
 
-*In mod Two*
+
+    *In mod Two*
     ship = battle.getSelfPlayerShip()
     ui.updateUiElementData(ship.uiId, {'modTwoData': 'mod two data fo player's ship'})
 
