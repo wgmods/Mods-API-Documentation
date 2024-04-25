@@ -260,6 +260,9 @@ The method deletes all mods_DataComponent components from data hub.
 
 This is a special data component for using in IU in mods instead of using **data** or **dataComponent**.
 
+Еhe fundamental difference of this component is the update of its data - when the - [updateUiElementData(uiID, data)](#updateUiElementDatauiID-data) method is called, the data is not replaced with new ones, but merged, creating a multi-level dictionary.
+Thus, this component can be safely added to the same element at the same time in different mods, without fear that data from different mods of mods will overlap.
+
 #### Note
 *Will be able from client version 13.5 !* 
 
