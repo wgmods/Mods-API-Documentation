@@ -200,6 +200,9 @@ Each of the inner lists corresponds to the skill level of the commander.
 
  	vehicle = battle.getSelfPlayerShip()
 	commanderSkills = vehicle.getCommanderSkills()
+ 		for skillsRaw in commanderSkills:
+                    for skill in skillsRaw:
+		        # do something with skill
 
 #### Note
 *Will be able from client version 13.5 !* 
