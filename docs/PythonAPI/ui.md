@@ -280,7 +280,7 @@ If two mods adding a new UI element tied to the player's ship, then the Python c
     ui.updateUiElementData(ship.uiId, {'modTwoData': 'mod two data fo player's ship'})
 
 
-Then UI unbound code will look like this:
+Then UI unbound2 code will look like this:
 
     *In mod One*
     (macro GET_MARKER_ENTITY_COMPONENT 'mods_DataComponent')
