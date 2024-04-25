@@ -284,11 +284,11 @@ Then UI unbound code will look like this:
 
     *In mod One*
     (macro GET_MARKER_ENTITY_COMPONENT 'mods_DataComponent')
-    (var modData:str = "mods_DataComponentComponent ? mods_DataComponentComponent.data[**'modOneData'**]: []" (event "mods_DataComponentComponent.evDataChanged"))
+    (var modData:str = "mods_DataComponentComponent ? mods_DataComponentComponent.data['modOneData']: []" (event "mods_DataComponentComponent.evDataChanged"))
 
     *In mod Two*
     (macro GET_MARKER_ENTITY_COMPONENT 'mods_DataComponent')
-    (var modData:str = "mods_DataComponentComponent ? mods_DataComponentComponent.data[**'modTwoData'**]: []" (event "mods_DataComponentComponent.evDataChanged"))
+    (var modData:str = "mods_DataComponentComponent ? mods_DataComponentComponent.data['modTwoData']: []" (event "mods_DataComponentComponent.evDataChanged"))
 
 #### Note
 *Will be able from client version 13.5 !* 
