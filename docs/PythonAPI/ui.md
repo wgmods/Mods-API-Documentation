@@ -279,6 +279,16 @@ If two mods adding a new UI element tied to the player's ship, then the Python c
     ship = battle.getSelfPlayerShip()
     ui.updateUiElementData(ship.uiId, {'modTwoData': 'mod two data fo player's ship'})
 
+
+Then UI unbound code will look like this:
+
+		(macro GET_MARKER_ENTITY_COMPONENT 'mods_DataComponent')
+		(var modData:str = "mods_DataComponentComponent ? mods_DataComponentComponent.data[**'modOneData'**]: []" (event "mods_DataComponentComponent.evDataChanged"))
+
+
+		(macro GET_MARKER_ENTITY_COMPONENT 'mods_DataComponent')
+		(var modData:str = "mods_DataComponentComponent ? mods_DataComponentComponent.data[**'modTwoData'**]: []" (event "mods_DataComponentComponent.evDataChanged"))
+
 #### Note
 *Will be able from client version 13.5 !* 
 
