@@ -292,7 +292,7 @@ Then UI unbound2 code will look like this:
 
 So, you can show different UI information on the ship in two different mods using one UI component.
 
-If you want to find yiur component by ID in UI part, the Python code will look like this:
+If you want to find your component by ID in the UI part, the Python code will look like this:
 
 	uiElementID = ui.createUiElement()
 	ui.addDataComponentWithId(uiElementID, 'my_component_ID', {'myModData': 'my mod data'})
