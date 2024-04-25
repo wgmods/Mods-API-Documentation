@@ -292,6 +292,17 @@ Then UI unbound2 code will look like this:
 
 So, you can show different UI information on the ship in two different mods using one UI component.
 
+If you want to find yiur component by ID in UI part, the Python code will look like this:
+
+	uiElementID = ui.createUiElement()
+	ui.addDataComponentWithId(uiElementID, 'my_component_ID', {'myModData': 'my mod data'})
+
+Then UI unbound2 code will look like this:
+
+	(var collection:gfx = "$datahub.getCollection(CC.mods_DataComponent)")
+	(var myModData:str = "$datahub.getPrimaryCompositeEntity(CC.mods_DataComponent, 0, 'my_component_ID')" (event "collection.evAdded") (event "collection.evRemoved"))
+
+
 #### Note
 *Will be able from client version 13.5 !* 
 
