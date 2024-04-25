@@ -255,5 +255,11 @@ The method deletes all mods_DataComponent components from data hub.
 
 ### mods_DataComponent
 
+This is a special data component for using in IU in mods instead of using **data** or **dataComponent**.
+
+#### Note
+*Will be able from client version 13.5 !* 
+
+
 ---
 
