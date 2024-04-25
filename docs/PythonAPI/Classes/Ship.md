@@ -102,6 +102,9 @@ Returns None if consumable is not installed on the ship.
  	vehicle = battle.getSelfPlayerShip()
 	radarInfo = vehicle.getRadarInfo()
 
+#### Note
+*Will be able from client version 13.5 !* 
+
 ---
 
 ### getHydroAcousticSearchInfo()
@@ -117,6 +120,9 @@ Returns None if consumable is not installed on the ship.
  	vehicle = battle.getSelfPlayerShip()
 	hydroAcousticSearchInfo = vehicle.getHydroAcousticSearchInfo()
 
+#### Note
+*Will be able from client version 13.5 !* 
+
 ---
 
 ### getSubmarineLocatorInfo()
@@ -131,6 +137,9 @@ Returns None if consumable is not installed on the ship.
 
  	vehicle = battle.getSelfPlayerShip()
 	submarineLocatorInfo = vehicle.getSubmarineLocatorInfo()
+
+#### Note
+*Will be able from client version 13.5 !* 
 
 ---
 
@@ -174,6 +183,9 @@ This function returns list of [_Modernization](./_Modernization.md) objects for 
  	vehicle = battle.getSelfPlayerShip()
 	modernizations = vehicle.getModernizations()
 
+#### Note
+*Will be able from client version 13.5 !* 
+
 ---
 
 ### getCommanderSkills()
@@ -187,5 +199,8 @@ This function returns list of [_CommanderSkill](./_CommanderSkill.md) objects fo
 
  	vehicle = battle.getSelfPlayerShip()
 	commanderSkills = vehicle.getCommanderSkills()
+
+#### Note
+*Will be able from client version 13.5 !* 
 
 ---
