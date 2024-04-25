@@ -1,6 +1,3 @@
-#### Note
-*Will be able from client version 13.5 !* 
-
 Class **_Modernization** provides some information modernizations, installed on the ship.
 
 You can get object of this type from ship by this way:
@@ -13,3 +10,6 @@ You can get object of this type from ship by this way:
 - type - str
 - slotNumber - int
 - iconPath - path to icon, string
+
+#### Note
+*Will be able from client version 13.5 !* 
