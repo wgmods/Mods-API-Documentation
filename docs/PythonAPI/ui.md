@@ -166,7 +166,7 @@ The method returns True if the ui element contains required component
 ---
 
 ### updateUiElementData(uiID, data)
-The method updates data of the mods_DataComponent of ui element.
+The method updates data of the dataComponent of ui element.
 
 #### Input parameters
 - uiID - ID of the ui element, returned by [createUiElement()](#createUiElement) method, int
@@ -175,6 +175,9 @@ The method updates data of the mods_DataComponent of ui element.
 #### Example:
     uiElementID = ui.createUiElement()
     ui.updateUiElementData(elementID, {'newValue': 1000.0})
+
+#### Note:
+*From client version 13.5 it will be used mods_DataComponent instead dataComponent !*
 
 ---
 
