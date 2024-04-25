@@ -190,10 +190,11 @@ This function returns list of [_Modernization](./_Modernization.md) objects for 
 
 ### getCommanderSkills()
 
-This function returns list of [_CommanderSkill](./_CommanderSkill.md) objects for ship.
+This function returns list with four lists of [_CommanderSkill](./_CommanderSkill.md) objects for ship.
+Each of the inner lists corresponds to the skill level of the commander.
 
 #### Returns
-- list of objects [_CommanderSkill](./_CommanderSkill.md)
+- list
 
 #### Example
 
