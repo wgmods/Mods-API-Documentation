@@ -1,3 +1,6 @@
+#### Note
+*Will be able from client version 13.5 !* 
+
 Class **_Modernization** provides some information modernizations, installed on the ship.
 
 You can get object of this type from ship by this way:
