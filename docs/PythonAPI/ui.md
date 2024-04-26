@@ -104,6 +104,9 @@ The method adds the MapPosition  component to the ui element. It's shows ui elem
     uiElementID = ui.createUiElement()
     ui.addMapPositionComponent(uiElementID)
 
+#### Note
+*Will be able from client version 13.5 !* 
+
 ---
 
 ### removeUiElementFromMiniMap(uiID)
