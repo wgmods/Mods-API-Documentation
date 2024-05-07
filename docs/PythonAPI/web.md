@@ -20,9 +20,13 @@ This function returns a list, a list of allowed URLs.
 
 ### addAllowedUrl(encodedUrl)
 This function adds a special encoded URL to the list of allowed URLs. You can request a special encoded URL from support.
+Returns true if url successfully added, and false instead.
 
 #### Input parameters
 - encodedUrl - a special encoded URL
+
+#### Returns
+- bool
 
 ---
 
