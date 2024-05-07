@@ -1,6 +1,6 @@
 To create the Flash part of the mod, you need an ActionScript 3 IDE, you can use **FlashDevelop**, **Adobe Flash Professional**, **Adobe Flash Builder** and other editors.
 
-Let’s create a new AS3 project. We call the main file **Main**, it will have an extension "*.as” and we add an external SWC library (you can find an updated version in our resources) depending on the selected IDE.
+Let’s create a new AS3 project. We call the main file **Main**, it will have an extension "*.as” and we add an external SWC library (you can find an updated version in our ModsSDK https://github.com/wgmods/ModSDK - as3_library/wows_library.swc) depending on the selected IDE.
 
 An example of adding it to Flash Builder:
 
