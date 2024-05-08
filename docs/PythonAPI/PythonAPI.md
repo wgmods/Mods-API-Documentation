@@ -44,43 +44,41 @@
 - map
 - next
 - oct
-			'reduce': reduce,
-			'repr': repr,
-			'reversed': reversed,
-			'setattr': setattr,
-			'slice': slice,
-			'staticmethod': staticmethod,
-			'super': super,
-			'tuple': tuple,
-			'type': type,
-			'unichr': unichr,
-			'unicode': unicode,
-			'vars': vars,
-
-			'list': list,
-			'dict': dict,
-			'int': int,
-			'float': float,
-			'bool': bool,
-			'str': str,
-			'set': set,
-
-			'len': len,
-			'zip': zip,
-			'range': range,
-			'xrange': xrange,
-			'max': max,
-			'min': min,
-			'round': round,
-			'sum': sum,
-			'divmod': divmod,
-			'ord': ord,
-			'chr': chr,
-			'pow': pow,
-			'sorted': sorted,
-			'object': object,
-			'property': property,
-			'Exception': Exception,
+- reduce
+- repr
+- reversed
+- setattr
+- slice
+- staticmethod
+- super
+- tuple
+- type
+- unichr
+- unicode
+- vars
+- list
+- dict
+- int
+- float
+- bool
+- str
+- set
+- len
+- zip
+- range
+- xrange
+- max
+- min
+- round
+- sum
+- divmod
+- ord
+- chr
+- pow
+- sorted
+- object
+- property
+- Exception
 
 ## Available modules:
 
