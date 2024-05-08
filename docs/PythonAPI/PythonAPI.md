@@ -33,17 +33,17 @@
 - format
 - frozenset
 - getattr
-			'hasattr': hasattr,
-			'hash': hash,
-			'hex': hex,
-			'id': id,
-			'isinstance': isinstance,
-			'issubclass': issubclass,
-			'iter': iter,
-			'long': long,
-			'map': map,
-			'next': next,
-			'oct': oct,
+- hasattr
+- hash
+- hex
+- id
+- isinstance
+- issubclass
+- iter
+- long
+- map
+- next
+- oct
 			'reduce': reduce,
 			'repr': repr,
 			'reversed': reversed,
