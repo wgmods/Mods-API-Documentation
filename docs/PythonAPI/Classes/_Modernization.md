@@ -9,7 +9,7 @@ You can get object of this type from ship by this way:
 
 - type - str
 - slotNumber - int
-- iconPath - path to icon, string
+- iconPath - path to icon, str
 
 #### Note
 *Will be able from client version 13.5 !* 
