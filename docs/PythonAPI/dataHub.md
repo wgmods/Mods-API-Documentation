@@ -22,7 +22,7 @@ The method returns the first entity object from the **componentName** collection
 
 #### Example
 
-    playerAvatar = dataHub.getFirstEntity ('playerAvatar')
+    playerAvatar = dataHub.getFirstEntity('playerAvatar')
 
 ---
 
@@ -37,6 +37,6 @@ The method returns an entity collection object with the requered componentName
 
 #### Example
 
-    playerAvatarCollection = dataHub.getEntityCollections ('playerAvatar')
+    playerAvatarCollection = dataHub.getEntityCollections('playerAvatar')
 
 ---
