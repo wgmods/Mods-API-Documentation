@@ -4,7 +4,7 @@ Module **web** allows you to work with web resources.
 
 - [getAllowedUrls()](#getAllowedUrls)
 - [addAllowedUrl(encodedUrl)](#addAllowedUrlencodedUrl)
-- [openUrl(urlurl, data = None)](#openUrlurlurl-dataNone)
+- [openUrl(urlurl, data=None)](#openUrlurlurl-dataNone)
 - [urlEncode(query)](#urlEncodequery)
 - [urlQuote(s, safe='/')](#urlQuotes-safe)
 
@@ -30,7 +30,7 @@ Returns true if url successfully added, and false instead.
 
 ---
 
-### openUrl(urlurl, data = None)
+### openUrl(urlurl, data=None)
 The method is similar to **urllib2.urlopen(url, data=None)**.
 
 It allows you to open a URL from the list of allowed URLs.
