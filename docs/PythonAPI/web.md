@@ -4,7 +4,7 @@ Module **web** allows you to work with web resources.
 
 - [getAllowedUrls()](#getAllowedUrls)
 - [addAllowedUrl(encodedUrl)](#addAllowedUrlencodedUrl)
-- [openUrl(url)](#openUrlurlurldataNone)
+- [openUrl(urlurl, data = None)](#openUrlurlurl-dataNone)
 - [urlEncode(query)](#urlEncodequery)
 - [urlQuote(s, safe='/')](#urlQuotes-safe)
 
