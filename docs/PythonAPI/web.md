@@ -4,7 +4,7 @@ Module **web** allows you to work with web resources.
 
 - [getAllowedUrls()](#getAllowedUrls)
 - [addAllowedUrl(encodedUrl)](#addAllowedUrlencodedUrl)
-- [openUrl(url)](#openUrlurl)
+- [openUrl(url)](#openUrlurlurldataNone)
 - [urlEncode(query)](#urlEncodequery)
 - [urlQuote(s, safe='/')](#urlQuotes-safe)
 
@@ -30,7 +30,7 @@ Returns true if url successfully added, and false instead.
 
 ---
 
-### openUrl(url)
+### openUrl(urlurl, data = None)
 The method is similar to **urllib2.urlopen(url, data=None)**.
 
 It allows you to open a URL from the list of allowed URLs.
@@ -38,7 +38,8 @@ It allows you to open a URL from the list of allowed URLs.
 You can see full documentation on this function on the official Python website here: https://docs.python.org/2/library/urllib2.html#urllib2.urlopen
 
 #### Input parameters
-- url - an allowed URL, str
+- url - an allowed URL with request, str
+- data - data for publishing on server, if needed, str
 
 ---
 
