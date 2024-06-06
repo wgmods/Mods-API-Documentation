@@ -257,6 +257,9 @@ The method deletes all mods_DataComponent components from data hub.
 #### Example:
     events.onBattleQuit(ui.clearData())
 
+#### WARNING:
+This method removes every mods_DataComponent and will affect all the modifications, not only your mods but also the ones from other authors!
+
 ---
 
 ### mods_DataComponent
