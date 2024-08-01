@@ -26,7 +26,6 @@ You can get object of this type by following functions:
 - [getRadarInfo()](#getRadarInfo)
 - [getHydroAcousticSearchInfo()](#getHydroAcousticSearchInfo)
 - [getSubmarineLocatorInfo()](#getSubmarineLocatorInfo)
-- [getPosition()](#getPosition)
 - [isAlive()](#isAlive)
 - [getModernizations()](#getModernizations)
 - [getCommanderSkills()](#getCommanderSkills)
@@ -140,20 +139,6 @@ Returns None if consumable is not installed on the ship.
 
 #### Note
 *Will be able from client version 13.5 !* 
-
----
-
-### getPosition()
-
-Return ship's current position.
-
-#### Returns
-- object Math.Vector3
-
-#### Example
-
- 	vehicle = battle.getSelfPlayerShip()
-	position = vehicle.getPosition()
 
 ---
 
