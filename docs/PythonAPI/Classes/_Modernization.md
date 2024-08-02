@@ -8,5 +8,4 @@ You can get object of this type from ship by this way:
 ### Athributes
 
 - type - str
-- slotNumber - int
 - iconPath - path to icon, str
