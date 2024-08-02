@@ -28,6 +28,7 @@ You can get object of this type by following functions:
 - [getSubmarineLocatorInfo()](#getSubmarineLocatorInfo)
 - [isAlive()](#isAlive)
 - [getModernizations()](#getModernizations)
+- [getSignals()](#getSignals)
 - [getCommanderSkills()](#getCommanderSkills)
 
 ---
@@ -165,7 +166,7 @@ If there is no modernization installed in some slot, there will be None in this 
 
 ### getSignals()
 
-This function returns list of [_Signal](./_Sinal.md) objects for ship.
+This function returns list of [_Signal](./_Signal.md) objects for ship.
 The length of list is equal of max number of signals.
 If there is no signal installed in some slot, there will be None in this list position.
 
