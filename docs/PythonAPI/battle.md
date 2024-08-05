@@ -30,6 +30,7 @@ To handle events you need to use **events.onSFMEvent** (see the description belo
 - [getBattleStatistics()](#getBattleStatistics)
 - [getSmokeScreens()](#getSmokeScreens)
 - [getNearestEnemyIndication()](#getNearestEnemyIndication)
+- [getPlaneParams(planeName)](#getPlaneParamsplaneName)
 
 ---
 
@@ -350,5 +351,16 @@ This function returns the [NearestEnemyIndication](./Classes/NearestEnemyIndicat
 #### Example
 
  	nearestEnemyIndication = battle.getNearestEnemyIndication() 
+
+---
+
+### getPlaneParams(planeName)
+This function returns an wrapper-object with plane params.
+
+#### Input parameters
+- planeName - plane name, str
+
+#### Returns
+- SafeClass object
 
 ---
