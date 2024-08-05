@@ -24,11 +24,11 @@ An example of subscription to an event:
 - [onObserverdShipChanged(func)](#onObserverdShipChangedfunc)
 - [onFlashReady(func)](#onFlashReadyfunc)
 - [onSFMEvent(func)](#onSFMEventfunc)
-- [onArtilleryAmmoChanged(func)](#onArtilleryAmmoChanged)
-- [onWeaponTypeChanged(func)](#onWeaponTypeChanged)
-- [onSquadronActivated(func)](#onSquadronActivated)
-- [onSquadronDeactivated(func)](#onSquadronDeactivated)
-- [onArtilleryFireModeChanged(func)](#onArtilleryFireModeChanged)
+- [onArtilleryAmmoChanged(func)](#onArtilleryAmmoChangedfunc)
+- [onWeaponTypeChanged(func)](#onWeaponTypeChangedfunc)
+- [onSquadronActivated(func)](#onSquadronActivatedfunc)
+- [onSquadronDeactivated(func)](#onSquadronDeactivatedfunc)
+- [onArtilleryFireModeChanged(func)](#onArtilleryFireModeChangedfunc)
 
 ---
 
