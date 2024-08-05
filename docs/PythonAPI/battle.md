@@ -35,6 +35,7 @@ To handle events you need to use **events.onSFMEvent** (see the description belo
 - [getSelectedAmmoId(weaponType)](#getSelectedAmmoIdweaponType)
 - [getAmmoModifiers()](#getAmmoModifiers)
 - [getSelfHoopRanging()](#getSelfHoopRanging)
+- [getAmmoImpactSpeed(ammo, gunPos, gunDir)()](#getAmmoImpactSpeedammo-gunPos-gunDir)
 
 ---
 
@@ -425,5 +426,23 @@ This function returns player's hoop ranging information.
 #### Example
 
  	hoopRanging = battle.getSelfHoopRanging()
+
+---
+
+### getAmmoImpactSpeed(ammo, gunPos, gunDir)
+
+This function returns lowest ammo impact speed.
+
+#### Input parameters
+- ammo - information about players current ammo
+- gunPos - vehicle guns current position, Math.Vector3
+- gunDir - vehicle guns current direction, Math.Vector3
+
+#### Returns
+- float or None
+
+#### Example
+
+ 	impactSpeed = battle.getAmmoImpactSpeed(ammo, gunPos, gunDir)
 
 ---
