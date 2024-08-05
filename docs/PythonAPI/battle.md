@@ -32,6 +32,7 @@ To handle events you need to use **events.onSFMEvent** (see the description belo
 - [getNearestEnemyIndication()](#getNearestEnemyIndication)
 - [getPlaneParams(planeName)](#getPlaneParamsplaneName)
 - [getBulletKrupp(ammo, modifiers)](#getBulletKruppammo-modifiers)
+- [getSelectedAmmoId(weaponType)](#getSelectedAmmoId-weaponType)
 
 ---
 
@@ -364,6 +365,10 @@ This function returns a wrapper-object with plane params.
 #### Returns
 - SafeClass object
 
+#### Example
+
+ 	planeParams = battle.getPlaneParams(planeName)
+
 ---
 
 ### getBulletKrupp(ammo, modifiers)
@@ -371,9 +376,26 @@ This function calculates and returns bullet's krupp.
 
 #### Input parameters
 - ammo - information about players current ammo, SafeClass
-- modifiers - information about ammo modifiers, AmmoModifiers
+- modifiers - information about ammo modifiers, [AmmoModifiers](./Classes/AmmoModifiers.md)
 
 #### Returns
 - float
 
+#### Example
+
+ 	bulletKrupp = battle.getBulletKrupp(ammo, modifiers)
+---
+
+### getSelectedAmmoId(weaponType)
+This function returns selected ammo id for current weapon.
+
+#### Input parameters
+- weaponType - information about weapon type, constants.WeaponType
+
+#### Returns
+- int
+
+#### Example
+
+ 	ammoId = battle.getSelectedAmmoId(weaponType)
 ---
