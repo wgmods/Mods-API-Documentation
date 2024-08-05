@@ -31,6 +31,7 @@ To handle events you need to use **events.onSFMEvent** (see the description belo
 - [getSmokeScreens()](#getSmokeScreens)
 - [getNearestEnemyIndication()](#getNearestEnemyIndication)
 - [getPlaneParams(planeName)](#getPlaneParamsplaneName)
+- [getBulletKrupp(ammo, modifiers)](#getBulletKruppammo-modifiers)
 
 ---
 
@@ -362,5 +363,17 @@ This function returns a wrapper-object with plane params.
 
 #### Returns
 - SafeClass object
+
+---
+
+### getBulletKrupp(ammo, modifiers)
+This function calculates and returns bullet's krupp.
+
+#### Input parameters
+- ammo - information about players current ammo, SafeClass
+- modifiers - information about ammo modifiers, AmmoModifiers
+
+#### Returns
+- float
 
 ---
