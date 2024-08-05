@@ -24,6 +24,11 @@ An example of subscription to an event:
 - [onObserverdShipChanged(func)](#onObserverdShipChangedfunc)
 - [onFlashReady(func)](#onFlashReadyfunc)
 - [onSFMEvent(func)](#onSFMEventfunc)
+- [onArtilleryAmmoChanged(func)](#onArtilleryAmmoChanged)
+- [onWeaponTypeChanged(func)](#onWeaponTypeChanged)
+- [onSquadronActivated(func)](#onSquadronActivated)
+- [onSquadronDeactivated(func)](#onSquadronDeactivated)
+- [onArtilleryFireModeChanged(func)](#onArtilleryFireModeChanged)
 
 ---
 
@@ -210,6 +215,51 @@ This method allows you to work with various SFM machine events, such as showing 
 - func - it is a handler function for events that takes two parameters from the SFM machine, such as eventName (an event name), and eventData (dict with event parameters)
 
 ![image](https://github.com/wgmods/Mods-API-Documentation/assets/167185926/318b9986-b71f-4d9b-99f9-fc0613286fa3)
+
+---
+
+### onArtilleryAmmoChanged(func)
+
+This event is triggered when the artillery ammo changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is ammoId
+
+---
+
+### onWeaponTypeChanged(func)
+
+This event is triggered when the weapon type changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is weaponType
+
+---
+
+### onSquadronActivated(func)
+
+This event is triggered when the squadron activated.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is bombParamsId
+
+---
+
+### onSquadronDeactivated(func)
+
+This event is triggered when the squadron deactivated.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### onArtilleryFireModeChanged(func)
+
+This event is triggered when the artillery fire mode changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
 
 ---
 
