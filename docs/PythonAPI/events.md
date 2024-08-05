@@ -29,6 +29,11 @@ An example of subscription to an event:
 - [onSquadronActivated(func)](#onSquadronActivatedfunc)
 - [onSquadronDeactivated(func)](#onSquadronDeactivatedfunc)
 - [onArtilleryFireModeChanged(func)](#onArtilleryFireModeChangedfunc)
+- [activeShipChanged(func)](#activeShipChangedfunc)
+- [shipConfigChanged(func)](#shipConfigChangedfunc)
+- [shipCrewChanged(func)](#shipCrewChangedfunc)
+- [selectedSkillsAdded(func)](#selectedSkillsAddedfunc)
+- [selectedSkillsRemoved(func)](#selectedSkillsRemovedfunc)
 
 ---
 
@@ -263,3 +268,47 @@ This event is triggered when the artillery fire mode changed.
 
 ---
 
+### activeShipChanged(func)
+
+This event is triggered when the active ship changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### shipConfigChanged(func)
+
+This event is triggered when the ship config changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### shipCrewChanged(func)
+
+This event is triggered when the ship crew changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### selectedSkillsAdded(func)
+
+This event is triggered when the selected skills added.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### selectedSkillsRemoved(func)
+
+This event is triggered when the selected skills removed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
