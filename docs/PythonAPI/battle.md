@@ -355,7 +355,7 @@ This function returns the [NearestEnemyIndication](./Classes/NearestEnemyIndicat
 ---
 
 ### getPlaneParams(planeName)
-This function returns an wrapper-object with plane params.
+This function returns a wrapper-object with plane params.
 
 #### Input parameters
 - planeName - plane name, str
