@@ -6,6 +6,7 @@ Module **dock** allows you to get additional game information in the port.
 - [getShipInfoById(shipID)](#getShipInfoByIdshipID)
 - [getProfileInfo()](#getProfileInfo)
 - [getShipConfig()](#getShipConfig)
+- [getAllShipsParams()](#getAllShipsParams)
 
 ---
 
@@ -40,6 +41,14 @@ This function returns an object with player profile information, the object cont
 This function returns config of the chosen ship.
 
 #### Returns
-- DockShipConfig
+- [DockShipConfig](./Classes/DockShipConfig.md) object
+
+---
+
+### getAllShipsParams()
+This function returns wrapped GameParams of all ships.
+
+#### Returns
+- list of SafeClass
 
 ---
