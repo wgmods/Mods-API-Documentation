@@ -9,4 +9,4 @@ You can get object of this type by function
 - shipId
 - subtype
 - componentsMap
-- modifiers
+- modifiers - [ShipModifiers](./ShipModifiers.md)
