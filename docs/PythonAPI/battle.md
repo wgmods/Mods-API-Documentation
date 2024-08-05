@@ -33,6 +33,8 @@ To handle events you need to use **events.onSFMEvent** (see the description belo
 - [getPlaneParams(planeName)](#getPlaneParamsplaneName)
 - [getBulletKrupp(ammo, modifiers)](#getBulletKruppammo-modifiers)
 - [getSelectedAmmoId(weaponType)](#getSelectedAmmoIdweaponType)
+- [getAmmoModifiers()](#getAmmoModifiers)
+- [getSelfHoopRanging()](#getSelfHoopRanging)
 
 ---
 
@@ -398,4 +400,30 @@ This function returns selected ammo id for current weapon.
 #### Example
 
  	ammoId = battle.getSelectedAmmoId(weaponType)
+---
+
+### getAmmoModifiers()
+
+This function returns player's ammo modifiers information.
+
+#### Returns
+- [AmmoModifiers](./Classes/AmmoModifiers.md) object
+
+#### Example
+
+ 	modifiers = battle.getAmmoModifiers()
+
+---
+
+### getSelfHoopRanging()
+
+This function returns player's hoop ranging information.
+
+#### Returns
+- [HoopRanging](./Classes/HoopRanging.md) object
+
+#### Example
+
+ 	hoopRanging = battle.getSelfHoopRanging()
+
 ---
