@@ -17,6 +17,8 @@ where:
 - [ConsumableStates](#ConsumableStates)
 - [PlayerRelation](#PlayerRelation)
 - [UiComponents](#UiComponents)
+- [WeaponType](#WeaponType)
+- [ProjectileTypes](#ProjectileTypes)
 
 ---
 
@@ -258,3 +260,39 @@ where:
 ### UiComponents:
 
 The full list of all components and their fields can be found in the Components.xml file in the game resources.
+
+---
+
+### WeaponType:
+
+- NONE = -1
+- ARTILLERY = 0
+- ATBA = 1
+- TORPEDO = 2
+- AIRPLANES = 3
+- AIRDEFENSE = 4
+- DEPTH_CHARGES = 5
+- PINGER = 6
+- CHARGE_LASER = 7
+- IMPULSE_LASER = 8
+- AXIS_LASER = 9
+- WAVES = 10
+- AIR_SUPPORT = 11
+
+---
+
+### ProjectileTypes:
+
+- ARTILLERY = 'Artillery'
+- TORPEDO = 'Torpedo'
+- BOMB = 'Bomb'
+- PLANETRACER = 'PlaneTracer'
+- DBOMB = 'DepthCharge'
+- ROCKET = 'Rocket'
+- SEA_MINE = 'Mine'
+- PLANE_SEA_MINE = 'PlaneSeaMine'
+- JATO = 'Jato'
+- SKIP_BOMB = 'SkipBomb'
+- LASER = 'Laser'  # for both chargeLasers and impulseLasers
+- WAVE = 'Wave'
+- DEV = 'Dev'  # for dev projectiles
