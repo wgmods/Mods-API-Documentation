@@ -32,7 +32,7 @@ To handle events you need to use **events.onSFMEvent** (see the description belo
 - [getNearestEnemyIndication()](#getNearestEnemyIndication)
 - [getPlaneParams(planeName)](#getPlaneParamsplaneName)
 - [getBulletKrupp(ammo, modifiers)](#getBulletKruppammo-modifiers)
-- [getSelectedAmmoId(weaponType)](#getSelectedAmmoId-weaponType)
+- [getSelectedAmmoId(weaponType)](#getSelectedAmmoIdweaponType)
 
 ---
 
