@@ -35,7 +35,8 @@ To handle events you need to use **events.onSFMEvent** (see the description belo
 - [getSelectedAmmoId(weaponType)](#getSelectedAmmoIdweaponType)
 - [getAmmoModifiers()](#getAmmoModifiers)
 - [getSelfHoopRanging()](#getSelfHoopRanging)
-- [getAmmoImpactSpeed(ammo, gunPos, gunDir)()](#getAmmoImpactSpeedammo-gunPos-gunDir)
+- [getAmmoImpactSpeed(ammo, gunPos, gunDir)](#getAmmoImpactSpeedammo-gunPos-gunDir)
+- [isInsideCircle(circleCentre, circleRadius, checkedObject)](#isInsideCirclecircleCentre-circleRadius-checkedObject))
 
 ---
 
@@ -444,5 +445,24 @@ This function returns lowest ammo impact speed.
 #### Example
 
  	impactSpeed = battle.getAmmoImpactSpeed(ammo, gunPos, gunDir)
+
+---
+
+### isInsideCircle(circleCentre, circleRadius, checkedObject)
+
+This function True if checked object is inside the circle.
+circleCentre and checkedObject can be type of Math.Vector3, python object with Math.Vector3 position attribute, or [Ship](./Classes/Ship.md) object - instead will be False.
+
+#### Input parameters
+- circleCentre - object, which is in the centre of the circle, 
+- circleRadius - circle radius, float
+- checkedObject - object for checking
+
+#### Returns
+- Bool
+
+#### Example
+
+ 	visibleByRadar = battle.isInsideCircle(myShip, radarRadius, ship)
 
 ---
