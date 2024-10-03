@@ -22,6 +22,16 @@ An example of subscription to an event:
 - [onBattleStatsReceived(func)](#onBattleStatsReceivedfunc)
 - [onPlayersListUpdated(func)](#onPlayersListUpdatedfunc)
 - [onObserverdShipChanged(func)](#onObserverdShipChangedfunc)
+- [onArtilleryAmmoChanged(func)](#onArtilleryAmmoChangedfunc)
+- [onWeaponTypeChanged(func)](#onWeaponTypeChangedfunc)
+- [onSquadronActivated(func)](#onSquadronActivatedfunc)
+- [onSquadronDeactivated(func)](#onSquadronDeactivatedfunc)
+- [onArtilleryFireModeChanged(func)](#onArtilleryFireModeChangedfunc)
+- [activeShipChanged(func)](#activeShipChangedfunc)
+- [shipConfigChanged(func)](#shipConfigChangedfunc)
+- [shipCrewChanged(func)](#shipCrewChangedfunc)
+- [selectedSkillsAdded(func)](#selectedSkillsAddedfunc)
+- [selectedSkillsRemoved(func)](#selectedSkillsRemovedfunc)
 
 ---
 
@@ -189,3 +199,95 @@ This event is triggered when the ship to which the camera is attached changes.
 
 #### Input parameters
 - func - it’s a handler function for the event
+
+---
+
+### onArtilleryAmmoChanged(func)
+
+This event is triggered when the artillery ammo changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is ammoId
+
+---
+
+### onWeaponTypeChanged(func)
+
+This event is triggered when the weapon type changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is weaponType
+
+---
+
+### onSquadronActivated(func)
+
+This event is triggered when the squadron activated.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is bombParamsId
+
+---
+
+### onSquadronDeactivated(func)
+
+This event is triggered when the squadron deactivated.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### onArtilleryFireModeChanged(func)
+
+This event is triggered when the artillery fire mode changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### activeShipChanged(func)
+
+This event is triggered when the active ship changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### shipConfigChanged(func)
+
+This event is triggered when the ship config changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### shipCrewChanged(func)
+
+This event is triggered when the ship crew changed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### selectedSkillsAdded(func)
+
+This event is triggered when the selected skills added.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### selectedSkillsRemoved(func)
+
+This event is triggered when the selected skills removed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---

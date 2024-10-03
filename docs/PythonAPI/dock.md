@@ -32,5 +32,3 @@ This function returns an object with player profile information, the object cont
 
 #### Returns
 - object
-
----

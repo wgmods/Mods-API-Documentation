@@ -108,4 +108,5 @@
 - [_HealthData](./Classes/_HealthData.md)
 - [_SearchConsumableInfo](./Classes/_SearchConsumableInfo.md)
 - [_Modernization](./Classes/_Modernization.md)
+- [_Signal](./Classes/_Signal.md)
 - [_CommanderSkill](./Classes/_CommanderSkill.md)

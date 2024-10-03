@@ -30,6 +30,12 @@ To handle events you need to use **events.onSFMEvent** (see the description belo
 - [getBattleStatistics()](#getBattleStatistics)
 - [getSmokeScreens()](#getSmokeScreens)
 - [getNearestEnemyIndication()](#getNearestEnemyIndication)
+- [getBulletKrupp(ammo, modifiers)](#getBulletKruppammo-modifiers)
+- [getSelectedAmmoId(weaponType)](#getSelectedAmmoIdweaponType)
+- [getAmmoModifiers()](#getAmmoModifiers)
+- [getSelfHoopRanging()](#getSelfHoopRanging)
+- [getAmmoImpactSpeed(ammo, gunPos, gunDir)](#getAmmoImpactSpeedammo-gunPos-gunDir)
+- [isInsideCircle(circleCentre, circleRadius, checkedObject)](#isInsideCirclecircleCentre-circleRadius-checkedObject))
 
 ---
 
@@ -350,5 +356,97 @@ This function returns the [NearestEnemyIndication](./Classes/NearestEnemyIndicat
 #### Example
 
  	nearestEnemyIndication = battle.getNearestEnemyIndication() 
+
+---
+
+### getBulletKrupp(ammo, modifiers)
+This function calculates and returns bullet's krupp.
+
+#### Input parameters
+- ammo - information about players current ammo, SafeClass
+- modifiers - information about ammo modifiers, [AmmoModifiers](./Classes/AmmoModifiers.md)
+
+#### Returns
+- float
+
+#### Example
+
+ 	bulletKrupp = battle.getBulletKrupp(ammo, modifiers)
+---
+
+### getSelectedAmmoId(weaponType)
+This function returns selected ammo id for current weapon.
+
+#### Input parameters
+- weaponType - information about weapon type, constants.WeaponType
+
+#### Returns
+- int
+
+#### Example
+
+ 	ammoId = battle.getSelectedAmmoId(weaponType)
+---
+
+### getAmmoModifiers()
+
+This function returns player's ammo modifiers information.
+
+#### Returns
+- [AmmoModifiers](./Classes/AmmoModifiers.md) object
+
+#### Example
+
+ 	modifiers = battle.getAmmoModifiers()
+
+---
+
+### getSelfHoopRanging()
+
+This function returns player's hoop ranging information.
+
+#### Returns
+- [HoopRanging](./Classes/HoopRanging.md) object
+
+#### Example
+
+ 	hoopRanging = battle.getSelfHoopRanging()
+
+---
+
+### getAmmoImpactSpeed(ammo, gunPos, gunDir)
+
+This function returns lowest ammo impact speed.
+
+#### Input parameters
+- ammo - information about players current ammo
+- gunPos - vehicle guns current position, Math.Vector3
+- gunDir - vehicle guns current direction, Math.Vector3
+
+#### Returns
+- float or None
+
+#### Example
+
+ 	impactSpeed = battle.getAmmoImpactSpeed(ammo, gunPos, gunDir)
+
+---
+
+### isInsideCircle(circleCentre, circleRadius, checkedObject)
+
+This function True if checked object is inside the circle.
+circleCentre and checkedObject can be type of Math.Vector3, python object with Math.Vector3 position attribute, or [Ship](./Classes/Ship.md) object - instead will be False.
+
+#### Input parameters
+- circleCentre - object, which is in the centre of the circle, 
+- circleRadius - circle radius, float
+- checkedObject - object for checking
+
+#### Returns
+- Bool
+
+#### Example
+
+ 	visibleByRadar = battle.isInsideCircle(myShip, radarRadius, ship)
 
 ---

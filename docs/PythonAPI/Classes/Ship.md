@@ -28,6 +28,7 @@ You can get object of this type by following functions:
 - [getSubmarineLocatorInfo()](#getSubmarineLocatorInfo)
 - [isAlive()](#isAlive)
 - [getModernizations()](#getModernizations)
+- [getSignals()](#getSignals)
 - [getCommanderSkills()](#getCommanderSkills)
 
 ---
@@ -101,9 +102,6 @@ Returns None if consumable is not installed on the ship.
  	vehicle = battle.getSelfPlayerShip()
 	radarInfo = vehicle.getRadarInfo()
 
-#### Note
-*Will be able from client version 13.5 !* 
-
 ---
 
 ### getHydroAcousticSearchInfo()
@@ -119,9 +117,6 @@ Returns None if consumable is not installed on the ship.
  	vehicle = battle.getSelfPlayerShip()
 	hydroAcousticSearchInfo = vehicle.getHydroAcousticSearchInfo()
 
-#### Note
-*Will be able from client version 13.5 !* 
-
 ---
 
 ### getSubmarineLocatorInfo()
@@ -136,9 +131,6 @@ Returns None if consumable is not installed on the ship.
 
  	vehicle = battle.getSelfPlayerShip()
 	submarineLocatorInfo = vehicle.getSubmarineLocatorInfo()
-
-#### Note
-*Will be able from client version 13.5 !* 
 
 ---
 
@@ -159,17 +151,32 @@ Return ship's alive condition.
 ### getModernizations()
 
 This function returns list of [_Modernization](./_Modernization.md) objects for ship.
+The length of list is equal of max number of modernizations for this ship.
+If there is no modernization installed in some slot, there will be None in this list position.
 
 #### Returns
-- list of objects [_Modernization](./_Modernization.md)
+- list of objects [_Modernization](./_Modernization.md) or None, if this data is not allowed for this current ship.
 
 #### Example
 
  	vehicle = battle.getSelfPlayerShip()
 	modernizations = vehicle.getModernizations()
 
-#### Note
-*Will be able from client version 13.5 !* 
+---
+
+### getSignals()
+
+This function returns list of [_Signal](./_Signal.md) objects for ship.
+The length of list is equal of max number of signals.
+If there is no signal installed in some slot, there will be None in this list position.
+
+#### Returns
+- list of objects [_Signal](./_Signal.md) or None, if this data is not allowed for this current ship.
+
+#### Example
+
+ 	vehicle = battle.getSelfPlayerShip()
+	signals = vehicle.getSignals()
 
 ---
 
@@ -188,8 +195,5 @@ Each of the inner lists corresponds to the skill level of the commander.
  		for skillsRaw in commanderSkills:
                     for skill in skillsRaw:
 		        # do something with skill
-
-#### Note
-*Will be able from client version 13.5 !* 
 
 ---
