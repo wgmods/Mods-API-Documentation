@@ -14,6 +14,7 @@ https://github.com/wgmods/ModSDK/tree/main
 - WoWs Unpack Tool:
 
 https://gitlab.com/AutoSpy/wowsut/raw/master/WOWSUnpackTool.exe
+
 https://dl-wows-gc.wargaming.net/projects/mods/WOWSUnpackTool.exe?_gl=1*m9n0bd*_gcl_au*MTc1MTE3NTQwNi4xNjg4MTM3MDY3
 
 Unpack tool should be put directly into the root game folder. i.e. C:\Games\World_of_Warships.
