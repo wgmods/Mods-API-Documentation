@@ -9,6 +9,7 @@ In this case you need to replace them by the the .dds files from client with oth
 First, you need to unpack client resources by on of the extracting tools:
 
 - wowsunpack.exe from the ModSDK
+
 https://github.com/wgmods/ModSDK/tree/main
 
 - WoWs Unpack Tool:
