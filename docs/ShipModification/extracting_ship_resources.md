@@ -31,3 +31,35 @@ The game will get stuck at the logging screen. Use Task Manager to force the gam
 After extracting you will have the directory with  Your_Mod_Name in the PnFMods directory. Example for the Hashidate_Mod:
 
 ![image](https://github.com/user-attachments/assets/43c4eec2-5f5d-4474-8490-cdf461db4927)
+
+This Hashidate_Mod directory will contains directory with Ship_ID name, which ship sources files with follow extensions:
+
+.geometry
+.dds
+.mfm
+.model
+.splash
+
+This files are able for modifications.
+
+5. After extracting resources you don't need ModsSDKExport and ModsSDK.zip directories anymore, and you need to delete them.
+Note, if you will not delete  ModsSDKExport, code in Main.py file will block login every time you launch the game.
+
+6. Create a Main.py in PnFMods/[Your_Mod_Name]/, write:
+
+API_VERSION = 'API_v1.0'
+
+contentSdk.registerShipMod('[Ship_ID]')
+
+Example:
+
+API_VERSION = 'API_v1.0'
+contentSdk.registerShipMod('JSC037_Hashidate_1940')
+
+Note that this is NOT the same Main.py in step 3, despite the same filename.
+
+Example, in PnFMods/Hashidate_Mod will be directory JSC037_Hashidate_1940 with sources files and Main.py file with Python code for mod registration:
+
+![image](https://github.com/user-attachments/assets/c40ea801-3777-4eab-9e67-40401c862152)
+
+7. Now you can modify some source file, launch the game, select modified ship in the Port and check the differences.
