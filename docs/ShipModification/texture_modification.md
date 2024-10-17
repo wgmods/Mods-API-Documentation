@@ -1,5 +1,5 @@
-There is one known issue now with some .dds files, which are extracted from game client by Python script contentSdk.extractSources('...')
-Some .dds files can't be loaded by client.
+There is one known issue now with some .dds files, which are extracted from game client by Python script contentSdk.extractSources('...'). 
+Some .dds files can't be loaded by client. 
 In this case you need to replace them by the the .dds files from client with other resolution:
 
 - .dd0
