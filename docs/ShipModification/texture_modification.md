@@ -16,8 +16,8 @@ https://github.com/wgmods/ModSDK/tree/main
 https://gitlab.com/AutoSpy/wowsut/raw/master/WOWSUnpackTool.exe
 https://dl-wows-gc.wargaming.net/projects/mods/WOWSUnpackTool.exe?_gl=1*m9n0bd*_gcl_au*MTc1MTE3NTQwNi4xNjg4MTM3MDY3
 
-Program should be put directly into the root game folder. i.e. C:\Games\World_of_Warships.
+Unpack tool should be put directly into the root game folder. i.e. C:\Games\World_of_Warships.
+
 
 Notice, that in the files address no other letter symbols that Latin alphabet is allowed.
-
 Grab the .dd0 files when these are available. Copy them to your mod, inside the proper folder and rename to .dds.
