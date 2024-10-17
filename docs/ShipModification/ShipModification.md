@@ -1,7 +1,7 @@
 ## Ship modification
 
 This instructions are essential from published on the Discord channel instructions, created by Modders community.
-Now we updated the client sources for ships, and ModSDK also chanched, so some steps from original sources are not needed anymore, like fixes pathes to the common textures files or copying .geometry files manually from unpacked client resources.
+Now we updated the client sources for ships, and ModSDK also chanched, so some steps from original instructions are not needed anymore, like fixes pathes to the common textures files or copying .geometry files manually from unpacked client resources.
 
 It is stiil possible to read original Modders instructians here
 
