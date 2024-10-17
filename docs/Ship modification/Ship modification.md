@@ -1,2 +1,4 @@
 
-docs/Ship modification/Extracting ship resources.md
+## Available modules:
+
+- [Extracting ship resources](./extracting ship resources.md)
