@@ -32,7 +32,7 @@ Files with extension .dds are direct draw surface files that serve as textures o
 
 Use Paint.NET\GIMP\or Photoshop to edit them.
 
-Filenames ending in:
+Filenames ending:
 - _a.dds - this file is the base texture. Edits made here directly affect the skin.
 - _ao.dds - ambient occlusion, these help the game by loading a pre-rendered shadow.
 - _mg.dds - specular, determines the "shininess" and color of reflected environment light.
