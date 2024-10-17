@@ -25,13 +25,13 @@ https://github.com/wgmods/ModSDK/tree/main/wows_geometrypack
 
 You can try to use some of follow tools for modifying .geometry files directly:
 
-https://github.com/ShadowyBandit/.geometry-converter
-https://github.com/wows-tools/wows-geometry
+- https://github.com/ShadowyBandit/.geometry-converter
+- https://github.com/wows-tools/wows-geometry
 
 Whatever the method you use, you shall always make sure that your modified model:
 
-is triangularized
-has valid normals
-has a valid uv map (and it must be named uv1)
-by default, for each model part, the number of vertex combinations and the number of triangles shall be less than 65535. (Some index blocks which have "list32" type can support up to 65536^2-1 indices, but since you can not distinguish them from the tool's interface, I still suggest not to put large model into one part)
+- is triangularized
+- has valid normals
+- has a valid uv map (and it must be named uv1)
+- by default, for each model part, the number of vertex combinations and the number of triangles shall be less than 65535. (Some index blocks which have "list32" type can support up to 65536^2-1 indices, but since you can not distinguish them from the tool's interface, I still suggest not to put large model into one part)
 
