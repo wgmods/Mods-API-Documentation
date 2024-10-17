@@ -18,7 +18,7 @@ Unzip the downloaded file, find the ModsSDK_X.X.X folder. Then, find the ID/name
     API_VERSION = 'API_v1.0'
     contentSdk.extractSources('Hashidate_Mod', 'JSC037_Hashidate_1940')
 
-### Example, If you want to make a mod called “Hashidate_Mod” for the ship Hashidate, you need to write this:
+Example, If you want to make a mod called “Hashidate_Mod” for the ship Hashidate, you need to write this:
 
     API_VERSION = 'API_v1.0'
     contentSdk.extractSources('Hashidate_Mod', 'JSC037_Hashidate_1940')
