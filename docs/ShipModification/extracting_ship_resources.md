@@ -15,13 +15,13 @@ Unzip the downloaded file, find the ModsSDK_X.X.X folder. Then, find the ID/name
 
 3. Create a Main.py file in PnFMods/ModsSDKExport/ with Python code:
 
-   API_VERSION = 'API_v1.0'
-   contentSdk.extractSources('[Your_Mod_Name]', '[Ship_ID]')
+    API_VERSION = 'API_v1.0'
+    contentSdk.extractSources('[Your_Mod_Name]', '[Ship_ID]')
 
 ### Example, If you want to make a mod called “Hashidate_Mod” for the ship Hashidate, you need to write this:
 
-   API_VERSION = 'API_v1.0'
-   contentSdk.extractSources('Hashidate_Mod', 'JSC037_Hashidate_1940')
+    API_VERSION = 'API_v1.0'
+    contentSdk.extractSources('Hashidate_Mod', 'JSC037_Hashidate_1940')
 
 4. Run the game client, wait for the extraction.
 
@@ -46,13 +46,13 @@ Note, if you will not delete  ModsSDKExport, code in Main.py file will block log
 
 6. Create a Main.py in PnFMods/[Your_Mod_Name]/, write:
 
-   API_VERSION = 'API_v1.0'
-   contentSdk.registerShipMod('[Ship_ID]')
+    API_VERSION = 'API_v1.0'
+    contentSdk.registerShipMod('[Ship_ID]')
 
 #### Example:
 
-   API_VERSION = 'API_v1.0'
-   contentSdk.registerShipMod('JSC037_Hashidate_1940')
+    API_VERSION = 'API_v1.0'
+    contentSdk.registerShipMod('JSC037_Hashidate_1940')
 
 Note that this is NOT the same Main.py in step 3, despite the same filename.
 Example, in PnFMods/Hashidate_Mod will be directory JSC037_Hashidate_1940 with sources files and Main.py file with Python code for mod registration:
