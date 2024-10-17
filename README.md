@@ -5,5 +5,5 @@ Mods API Documentation
 
 [FlashAPI](docs/FlashAPI/FlashAPI.md)
 
-[Ship modification](docs/ShipModification/ship_modification.md)
+[Ship modification](docs/ShipModification/ShiModification.md)
 
