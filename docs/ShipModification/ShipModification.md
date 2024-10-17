@@ -2,3 +2,4 @@
 
 - [Extracting ship resources](./extracting_ship_resources.md)
 - [Geometry modification](./geometry_modification.md)
+- [Texture modification](./texture_modification.md)
