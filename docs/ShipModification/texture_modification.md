@@ -2,9 +2,9 @@ There is one known issue now with some .dds files, which are extracted from game
 Some .dds files can't be loaded by client.
 In this case you need to replace them by the the .dds files from client with other resolution:
 
-.dd0
-.dd1
-.dd2
+- .dd0
+- .dd1
+- .dd2
 
 First, you need to unpack client resources by on of the extracting tools:
 
@@ -12,6 +12,7 @@ First, you need to unpack client resources by on of the extracting tools:
 https://github.com/wgmods/ModSDK/tree/main
 
 - WoWs Unpack Tool:
+
 https://gitlab.com/AutoSpy/wowsut/raw/master/WOWSUnpackTool.exe
 https://dl-wows-gc.wargaming.net/projects/mods/WOWSUnpackTool.exe?_gl=1*m9n0bd*_gcl_au*MTc1MTE3NTQwNi4xNjg4MTM3MDY3
 
