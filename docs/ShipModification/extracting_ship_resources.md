@@ -16,7 +16,7 @@ Unzip the downloaded file, find the ModsSDK_X.X.X folder. Then, find the ID/name
 3. Create a Main.py file in PnFMods/ModsSDKExport/ with Python code:
 
     API_VERSION = 'API_v1.0'
-    contentSdk.extractSources('[Your_Mod_Name]', '[Ship_ID]')
+    contentSdk.extractSources('Hashidate_Mod', 'JSC037_Hashidate_1940')
 
 ### Example, If you want to make a mod called “Hashidate_Mod” for the ship Hashidate, you need to write this:
 
