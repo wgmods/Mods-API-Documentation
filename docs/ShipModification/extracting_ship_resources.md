@@ -13,9 +13,10 @@ Unzip the downloaded file, find the ModsSDK_X.X.X folder. Then, find the ID/name
 
 ![image](https://github.com/user-attachments/assets/701f586f-cab7-43f6-b576-549702c9185c)
 
-3. Create a Main.py file in PnFMods/ModsSDKExport/ with Python code:
+3. Create a Main.py file in PnFMods/ModsSDKExport/ with Python code
 
- 	visibleShips = battle.getAllShips()
+    API_VERSION = 'API_v1.0'
+    contentSdk.extractSources('[Your_Mod_Name]', '[Ship_ID]')
 
 Example, If you want to make a mod called “Hashidate_Mod” for the ship Hashidate, you need to write this:
 
@@ -43,7 +44,7 @@ This files are able for modifications.
 5. After extracting resources you don't need ModsSDKExport and ModsSDK.zip directories anymore, and you need to delete them.
 Note, if you will not delete  ModsSDKExport, code in Main.py file will block login every time you launch the game.
 
-6. Create a Main.py in PnFMods/[Your_Mod_Name]/, write:
+6. Create a Main.py in PnFMods/[Your_Mod_Name]/, write
 
     API_VERSION = 'API_v1.0'
     contentSdk.registerShipMod('[Ship_ID]')
