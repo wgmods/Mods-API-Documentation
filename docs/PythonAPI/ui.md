@@ -19,7 +19,7 @@ Module **ui** contains methods for working with game's UI.
 - [getLengthOnMiniMap(length)](#getLengthOnMiniMaplength)
 - [setUiPreference(hideInBattleStatus=None)](#setUiPreferencehideInBattleStatusNone)
 - [getUserPrefs(sectionName, parameterName, defaultValue)](#getUserPrefssectionName-parameterName-defaultValue)
-- [setSubmarineUnderwaterColor(colorName, value)](#setSubmarineUnderwaterColor-colorName-value)
+- [setSubmarineUnderwaterColor(colorName, value)](#setSubmarineUnderwaterColorcolorName-value)
 - [clearData()](#clearData)
 
 ## Available components:
