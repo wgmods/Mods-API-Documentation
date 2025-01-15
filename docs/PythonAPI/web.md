@@ -7,6 +7,7 @@ Module **web** allows you to work with web resources.
 - [openUrl(urlurl, data=None)](#openUrlurlurl-dataNone)
 - [urlEncode(query)](#urlEncodequery)
 - [urlQuote(s, safe='/')](#urlQuotes-safe)
+- [fetchURL(url, callback, headers, timeout, method)](#fetchURLurl-callback-headers-timeout-method)
 
 ---
 
@@ -62,4 +63,24 @@ You can see full documentation on this function on the official Python website h
 - s - the line where replacements are made, str
 - safe - is a symbols that cannot be converted
 
+---
+
+### fetchURL(url, callback, headers, timeout, method)
+Execute async web request, response will return in callback parameter.
+It's correct work with both http and https URLs.
+
+
+#### Input parameters
+- url - URL with data, str
+- callback - callback witch will receive response, function
+- headers - headers, str
+- timeout - timeout, int
+- method - request method, str
+
+#### Example:
+    def callback(response):
+		    utils.logInfo('{}'.format(response))
+
+    web.fetchURL(url_with_data, callback, '', 5, 'GET')
+    
 ---
