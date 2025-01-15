@@ -67,7 +67,8 @@ You can see full documentation on this function on the official Python website h
 
 ### fetchURL(url, callback, headers, timeout, method)
 Execute async web request, response will return in callback parameter.
-It's correct work with both http and https URLs.
+
+It correct works with both http and https URLs.
 
 
 #### Input parameters
