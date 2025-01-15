@@ -32,6 +32,7 @@ An example of subscription to an event:
 - [shipCrewChanged(func)](#shipCrewChangedfunc)
 - [selectedSkillsAdded(func)](#selectedSkillsAddedfunc)
 - [selectedSkillsRemoved(func)](#selectedSkillsRemovedfunc)
+- [onUserPrefsChanged(func)](#onUserPrefsChangedfunc)
 
 ---
 
@@ -286,6 +287,15 @@ This event is triggered when the selected skills added.
 ### selectedSkillsRemoved(func)
 
 This event is triggered when the selected skills removed.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### onUserPrefsChanged(func)
+
+This event is triggered when some user's preferences (userPrefs entity) chanched.
 
 #### Input parameters
 - func - it’s a handler function for the event, input parameters of the function is *args
