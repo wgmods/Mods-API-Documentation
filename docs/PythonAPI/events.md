@@ -314,7 +314,7 @@ This event is triggered when some ship take the damage.
 #### Example:
 
     def OnReceiveDamagesOnShip(victimId, damages):
-	pass
+        pass
 
     events.onReceiveDamagesOnShip(OnReceiveDamagesOnShip)
 
@@ -330,7 +330,7 @@ This event is triggered when some submarine take the damage.
 #### Example:
 
     def OnReceiveOilLeakPosition(vehicleId, position2D):
-	pass
+        pass
 
     events.onReceiveOilLeakPosition(OnReceiveOilLeakPosition)
 
