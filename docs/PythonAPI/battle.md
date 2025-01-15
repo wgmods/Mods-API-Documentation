@@ -36,6 +36,10 @@ To handle events you need to use **events.onSFMEvent** (see the description belo
 - [getSelfHoopRanging()](#getSelfHoopRanging)
 - [getAmmoImpactSpeed(ammo, gunPos, gunDir)](#getAmmoImpactSpeedammo-gunPos-gunDir)
 - [isInsideCircle(circleCentre, circleRadius, checkedObject)](#isInsideCirclecircleCentre-circleRadius-checkedObject))
+- [activateQuickCommandFilter(modName, filterFunc)](#activateQuickCommandFiltermodName-filterFunc)
+- [deactivateQuickCommandFilter(modName)](#deactivateQuickCommandFiltermodName)
+- [activateChatMessageFilter(modName, filterFunc)](#activateChatMessageFiltermodName-filterFunc)
+- [deactivateChatMessageFilter(modName)](#deactivateChatMessageFiltermodName)
 
 ---
 
@@ -438,7 +442,7 @@ This function True if checked object is inside the circle.
 circleCentre and checkedObject can be type of Math.Vector3, python object with Math.Vector3 position attribute, or [Ship](./Classes/Ship.md) object - instead will be False.
 
 #### Input parameters
-- circleCentre - object, which is in the centre of the circle, 
+- circleCentre - object, which is in the centre of the circle
 - circleRadius - circle radius, float
 - checkedObject - object for checking
 
@@ -448,5 +452,24 @@ circleCentre and checkedObject can be type of Math.Vector3, python object with M
 #### Example
 
  	visibleByRadar = battle.isInsideCircle(myShip, radarRadius, ship)
+
+---
+
+### activateQuickCommandFilter(modName, filterFunc)
+
+Setup filter function for chat quick commands.
+filterFunc required two parameters for playerId(int) and commandType(int) and must return True or Falls
+
+#### Input parameters
+- modName - mod's name, str
+- filterFunc - function for filtering quick commands
+
+#### Example
+
+    def isQuickCommandAllowed(playerId, commandType):
+        isAllowed = checkMessage(senderId, extraData) # Do some logic with playerId and commandType
+        return isAllowed
+
+    battle.activateQuickCommandFilter('QuickCommandsFilterMod', isQuickCommandAllowed)
 
 ---
