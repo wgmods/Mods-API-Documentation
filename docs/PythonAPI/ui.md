@@ -19,6 +19,7 @@ Module **ui** contains methods for working with game's UI.
 - [getLengthOnMiniMap(length)](#getLengthOnMiniMaplength)
 - [setUiPreference(hideInBattleStatus=None)](#setUiPreferencehideInBattleStatusNone)
 - [getUserPrefs(sectionName, parameterName, defaultValue)](#getUserPrefssectionName-parameterName-defaultValue)
+- [setSubmarineUnderwaterColor(colorName, value)](#setSubmarineUnderwaterColor-colorName-value)
 - [clearData()](#clearData)
 
 ## Available components:
@@ -248,6 +249,20 @@ The method returns required ui settings parameter.
 
 #### Example:
     userPref = ui.getUserPrefs('chatBoxWidth', 'requiredParameterName', 0.7)
+
+---
+
+### setSubmarineUnderwaterColor(colorName, value)
+Set submarine underwater color value for the required colorName.
+Return True if setup color is success, or False, if failed.
+
+#### Input parameters
+- colorName - required color name, str
+- value - required color value, Math.Vector4
+
+#### Example:
+    defaultColors = ui.getDefaultSubmarineUnderwaterColors()
+    ui.setSubmarineUnderwaterColor(defaultColors[0].name, Vector4(0.5, 0.5, 0.5, 0.5))
 
 ---
 
