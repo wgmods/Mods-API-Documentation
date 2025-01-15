@@ -79,7 +79,7 @@ It's correct work with both http and https URLs.
 
 #### Example:
     def callback(response):
-		    utils.logInfo('{}'.format(response))
+        utils.logInfo('{}'.format(response))
 
     web.fetchURL(url_with_data, callback, '', 5, 'GET')
     
