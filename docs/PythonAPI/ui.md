@@ -19,6 +19,7 @@ Module **ui** contains methods for working with game's UI.
 - [getLengthOnMiniMap(length)](#getLengthOnMiniMaplength)
 - [setUiPreference(hideInBattleStatus=None)](#setUiPreferencehideInBattleStatusNone)
 - [getUserPrefs(sectionName, parameterName, defaultValue)](#getUserPrefssectionName-parameterName-defaultValue)
+- [getDefaultSubmarineUnderwaterColors()](#getDefaultSubmarineUnderwaterColors)
 - [setSubmarineUnderwaterColor(colorName, value)](#setSubmarineUnderwaterColorcolorName-value)
 - [clearData()](#clearData)
 
@@ -252,9 +253,18 @@ The method returns required ui settings parameter.
 
 ---
 
+### getDefaultSubmarineUnderwaterColors()
+Returns list with default submarine underwater colors.
+
+#### Example:
+    defaultColors = ui.getDefaultSubmarineUnderwaterColors()
+    firstColorName = defaultColors[0].name
+    firstColorValue = defaultColors[0].value
+
+---
 ### setSubmarineUnderwaterColor(colorName, value)
 Set submarine underwater color value for the required colorName.
-Return True if setup color is success, or False, if failed.
+Returns True if setup color is success, or False, if failed.
 
 #### Input parameters
 - colorName - required color name, str
