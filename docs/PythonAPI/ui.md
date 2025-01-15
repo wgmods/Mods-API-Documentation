@@ -256,6 +256,9 @@ The method returns required ui settings parameter.
 ### getDefaultSubmarineUnderwaterColors()
 Returns list with default submarine underwater colors.
 
+#### Returns
+- list of objects [Color](./Classes/Color.md)
+
 #### Example:
     defaultColors = ui.getDefaultSubmarineUnderwaterColors()
     firstColorName = defaultColors[0].name
