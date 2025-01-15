@@ -33,6 +33,8 @@ An example of subscription to an event:
 - [selectedSkillsAdded(func)](#selectedSkillsAddedfunc)
 - [selectedSkillsRemoved(func)](#selectedSkillsRemovedfunc)
 - [onUserPrefsChanged(func)](#onUserPrefsChangedfunc)
+- [onReceiveDamagesOnShip(func)](#onReceiveDamagesOnShipfunc)
+- [onReceiveOilLeakPosition(func)](#onReceiveOilLeakPositionfunc)
 
 ---
 
@@ -299,5 +301,37 @@ This event is triggered when some user's preferences (userPrefs entity) chanched
 
 #### Input parameters
 - func - it’s a handler function for the event, input parameters of the function is *args
+
+---
+
+### onReceiveDamagesOnShip(func)
+
+This event is triggered when some ship take the damage.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function are victimId, damages
+
+#### Example:
+
+    def OnReceiveDamagesOnShip(victimId, damages):
+		pass
+
+    events.onReceiveDamagesOnShip(OnReceiveDamagesOnShip)
+
+---
+
+### onReceiveOilLeakPosition(func)
+
+This event is triggered when some submarine take the damage.
+
+#### Input parameters
+- func - it’s a handler function for the event, input parameters of the function are vehicleId, position2D
+
+#### Example:
+
+    def OnReceiveOilLeakPosition(vehicleId, position2D):
+		pass
+
+    events.onReceiveOilLeakPosition(OnReceiveOilLeakPosition)
 
 ---
