@@ -458,6 +458,7 @@ circleCentre and checkedObject can be type of Math.Vector3, python object with M
 ### activateQuickCommandFilter(modName, filterFunc)
 
 Setup filter function for chat quick commands.
+
 filterFunc required two parameters for playerId(int) and commandType(int) and must return True or Falls
 
 #### Input parameters
@@ -467,9 +468,55 @@ filterFunc required two parameters for playerId(int) and commandType(int) and mu
 #### Example
 
     def isQuickCommandAllowed(playerId, commandType):
-        isAllowed = checkMessage(senderId, extraData) # Do some logic with playerId and commandType
+        isAllowed = checkCommand(playerId, commandType) # Do some logic with playerId and commandType
         return isAllowed
 
     battle.activateQuickCommandFilter('QuickCommandsFilterMod', isQuickCommandAllowed)
+
+---
+
+### deactivateQuickCommandFilter(modName)
+
+Setup filter function for quick commands to None and deactivate filtering chat quick commands.
+
+#### Input parameters
+- modName - mod's name, str
+
+#### Example
+
+    battle.deactivateQuickCommandFilter('QuickCommandsFilterMod')
+
+---
+
+### activateChatMessageFilter(modName, filterFunc)
+
+Setup filter function for chat messages.
+
+filterFunc required two parameters for senderId(int) and extraData(dict) and must return True or Falls
+
+#### Input parameters
+- modName - mod's name, str
+- filterFunc -  function for filtering messages
+
+#### Example
+
+    def isChatMessageAllowed(senderId, extraData):
+        isAllowed = checkMessage(senderId, extraData) # Do some logic with enderId, extraData
+        return isAllowed
+
+    battle.activateChatMessageFilter('ChatFilterMod', isChatMessageAllowed)
+
+---
+
+### deactivateChatMessageFilter(modName)
+
+Setup filter function for chat messages to None and deactivate filtering chat messages.
+
+#### Input parameters
+- modName - mod's name, str
+
+#### Example
+
+    battle.deactivateChatMessageFilter('ChatFilterMod')
 
 ---
