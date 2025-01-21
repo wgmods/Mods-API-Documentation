@@ -514,7 +514,13 @@ filterFunc required two parameters for senderId(int) and extraData(dict) and mus
 - senderId: SenderId of message, int
 - extraData: Additional information about message, dict or None
 
-  If dict is not None, it's contain the 'type' of message, which you can check in constants TypeSystemChatMessages and TypeClientSystemChatMessages.
+  If dict is not None, it can contains the 'type' of message, which you can check in constants TypeSystemChatMessages and TypeClientSystemChatMessages.
+
+#### Example
+
+    if extraData is not None:
+        type = extraData.get('type', None)
+        isAchievement = type == -1
 
 ---
 
