@@ -19,6 +19,10 @@ where:
 - [UiComponents](#UiComponents)
 - [WeaponType](#WeaponType)
 - [ProjectileTypes](#ProjectileTypes)
+- [TypeSystemChatMessages](#TypeSystemChatMessages)
+- [TypeClientSystemChatMessages](#TypeClientSystemChatMessages)
+- [QuickCommandType](#QuickCommandType)
+- [SystemChatSenderIds](#SystemChatSenderIds)
 
 ---
 
@@ -296,3 +300,75 @@ The full list of all components and their fields can be found in the Components.
 - LASER = 'Laser'  # for both chargeLasers and impulseLasers
 - WAVE = 'Wave'
 - DEV = 'Dev'  # for dev projectiles
+
+---
+
+### TypeSystemChatMessages:
+
+- ADDED_BAN = 0
+- DROPPED_BAN = 1
+- APPLIED_ADD_BAN = 2
+- APPLIED_REMOVE_BAN = 3
+- JOIN_PREBATTLE = 4
+- LEAVE_PREBATTLE = 5
+- ALONE_IN_PREBATTLE = 6
+- CMD_SYNTAX_ERROR = 7
+- CMD_NICK_ERROR = 8
+- CMD_NICK_NOT_FOUND = 9
+- CMD_CREDS_ERROR = 10
+- CMD_DURATION_ERROR = 11
+- CMD_DURATION_INCORRECT = 12
+- CMD_UNKNOWN_ERROR = 13
+- CMD_INCORRECT_CHANNEL = 14
+- INVITE_TO_DIVISION = 15
+- REJECT_INVITATION_TO_DIVISION = 16
+- RECEIVE_INVITATION_TO_DIVISION = 17
+- REJECTED_YOUR_INVITATION_TO_DIVISION = 18
+- QUICK_COMMANDS_BAN = 19
+- RECT_ATTENTION_BAN = 20
+- POINT_ATTENTION_BAN = 21
+
+---
+
+### TypeClientSystemChatMessages:
+
+- ACHIEVEMENT_EARNED = -1
+- TEAMKILL_STATUS = -2
+- EVALUATION = -3
+- MUTE = -4
+- QUICK_COMMAND = -5
+- SERVER_RESTART = -6
+- FRIENDLY_FIRE = -7
+- BECOME_SPECTATOR = -8
+- DIPLOMACY_MESSAGE = -9
+- CHAT_COMMUNICATION_DISABLED = -10
+
+---
+
+### QuickCommandType:
+
+- MAP_RECT_ATTENTION = 1
+- QUICK_TACTIC = 2
+- QUICK_NEED_SUPPORT = 3
+- QUICK_SOS = 4
+- QUICK_AYE_AYE = 5
+- QUICK_NO_WAY = 6
+- QUICK_GOOD_GAME = 7
+- QUICK_CARAMBA = 8
+- QUICK_THANK_YOU = 9
+- NEED_AIR_DEFENCE = 10
+- BACK = 11
+- NEED_VISION = 12
+- NEED_SMOKE = 13
+- RLS = 14
+- SONAR = 15
+- FOLLOW_ME = 16
+- MAP_POINT_ATTENTION = 17
+- SUBMARINE_LOCATOR = 18
+
+---
+
+### SystemChatSenderIds:
+
+- SYSTEM_CHAT_ID = 0
+- BATTLE_LOGIC_CHAT_ID = -1
