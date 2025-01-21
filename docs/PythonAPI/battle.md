@@ -520,7 +520,7 @@ filterFunc required two parameters for senderId(int) and extraData(dict) and mus
 
     if extraData is not None:
         type = extraData.get('type', None)
-        isAchievement = type == -1
+        isAchievement = type == constants.TypeClientSystemChatMessages.ACHIEVEMENT_EARNED 
 
 ---
 
