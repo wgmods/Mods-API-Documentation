@@ -473,6 +473,10 @@ filterFunc required two parameters for playerId(int) and commandType(int) and mu
 
     battle.activateQuickCommandFilter('QuickCommandsFilterMod', isQuickCommandAllowed)
 
+#### Input parameters of filterFunc
+- playerId: playerId of command, int
+- commandType: type of the command, int (constants.QuickCommandType)
+
 ---
 
 ### deactivateQuickCommandFilter(modName)
@@ -509,6 +513,7 @@ filterFunc required two parameters for senderId(int) and extraData(dict) and mus
 #### Input parameters of filterFunc
 - senderId: SenderId of message, int
 - extraData: Additional information about message, dict or None
+
   If dict is not None, it's contain the 'type' of message, which you can check in constants TypeSystemChatMessages and TypeClientSystemChatMessages.
 
 ---
