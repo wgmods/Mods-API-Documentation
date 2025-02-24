@@ -241,7 +241,7 @@ Can be extended by request in future.
 ---
 
 ### getUserPrefs(sectionName, parameterName, defaultValue)
-The method returns required ui settings parameter.
+The method returns required ui settings parameter or defaultValue, if this parametr doesn't exist.
 
 #### Input parameters
 - sectionName - required section name, str
