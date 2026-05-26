@@ -7,3 +7,4 @@ Mods API Documentation
 
 [Ship modification](docs/ShipModification/ShipModification.md)
 
+[Unbound2](docs/Unbound2/Unbound2.md)
