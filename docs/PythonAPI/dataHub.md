@@ -6,12 +6,12 @@ The full list of all components and their fields can be found in the **Component
 
 ## Available methods:
 
-- [getFirstEntity(componentName)](#getFirstEntitycomponentName)
+- [getSingleEntity(componentName)](#getFirstEntitycomponentName)
 - [getEntityCollections(componentName)](#getEntityCollectionscomponentName)
 
 ---
 
-### getFirstEntity(componentName)
+### getSingleEntity(componentName)
 The method returns the first entity object from the **componentName** collection (ex. dataHub.getFirstEntity ('playerAvatar')).
 
 #### Input parameters
